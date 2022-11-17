@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color:#191a1c;
+    color:white;
+}
+
+.number {
+    font-family: axia-stencil, sans-serif; 
+    color:#ffef12;
+    font-size:100pt;
+}
+
+h1 {
+    font-family: axia-stencil, sans-serif; 
+}
+
+p {
+    font-family:  trasandina, sans-serif;
+}
+
+.high-temp {
+    color:#ff4a26;
+}
+
+.low-temp {
+    color:#2e35ff;
+}
