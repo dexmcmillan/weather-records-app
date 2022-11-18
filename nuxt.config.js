@@ -5,7 +5,7 @@ export default defineNuxtConfig({
       head: {
           charset: 'utf-16',
           viewport: 'width=500, initial-scale=1',
-          title: 'Weather Records App',
+          title: 'Weather Records',
           link: [
             { rel: "stylesheet", href: "https://use.typekit.net/smj0uzc.css" }
           ]

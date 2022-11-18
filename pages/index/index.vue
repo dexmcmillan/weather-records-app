@@ -27,14 +27,22 @@
 
 <script setup>
 
+    // Define page props.
     const props = defineProps({cityToShow: String, temps: Array})
 
+    // This function controls the response when the user chooses a new city from the dropdown box.
     const filtered_cities = computed(() => {
+
+        // Updated head using title.
+        useHead({ title: `Weather Records - ${props.cityToShow}`})
         
+        // Check if the default ('Canada') is selected...
         if (props.cityToShow != "Canada") {
+            // ...if it's not, find the city the user wants and return it.
             return props.temps.filter(i => i.CMANAME == props.cityToShow)[0] 
         }
         else {
+            // ..if it is, return the first entry in the array, which is the most recent city to break a record.
             return props.temps[0]
         }
         

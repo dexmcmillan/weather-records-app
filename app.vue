@@ -21,19 +21,28 @@
 </template>
 
 <script setup>
-        
-    import max_temps from '~/assets/data/maxtempdata.json';
-    import min_temps from '~/assets/data/mintempdata.json';
+    
+    // Import data json files from the assets folder.
+    import maxTempRecords from '~/assets/data/maxtempdata.json';
+    import minTempRecords from '~/assets/data/mintempdata.json';
 
+    // Now, we need one array, with one entry for each city, depending on if the last record broken was a low or high.
+    // Start by creating a new temp array.
     let temps = []
 
-    for (const cityInMaxTempRecords of max_temps) {
+    // Now we loop through each city in the maxTempRecords array...
+    for (const cityInMaxTempRecords of maxTempRecords) {
 
-        const cityInMinTempRecords = min_temps.filter(i => i.CMANAME == cityInMaxTempRecords.CMANAME)[0]
+        // ...find the matching entry in the minTempRecords array... 
+        const cityInMinTempRecords = minTempRecords.filter(i => i.CMANAME == cityInMaxTempRecords.CMANAME)[0]
         
+        // ...add a property to it that we will use to control formatting...
         cityInMaxTempRecords["type"] = "max"
         cityInMinTempRecords["type"] = "min"
 
+        // Then compare the two records.
+        // If the days_since_record property is lower in one or the other, add it to our temps array.
+        // Because it's not possible for a hot and cold record to be broken on the same day, we don't need to worry about a scenario where the two equal each other.
         if (cityInMinTempRecords.days_since_record < cityInMaxTempRecords.days_since_record) {
             temps.push(cityInMinTempRecords)
         }
@@ -43,7 +52,9 @@
 
     }
 
+    // Sort temps so the most recent broken records are first.
     temps = temps.sort((a,b) => a.days_since_record - b.days_since_record)
+
 </script>
 
 <script>
@@ -52,18 +63,11 @@ export default defineComponent({
   data() {
     return {
       cityToShow: "Canada",
+      // For some reason, our dates are getting set back one day when we use our date plugin (not sure why!)
+      // To fix it, we added one to the date in the date plugin. That means here, we need to minus 2 instead of one.
       yesterday: (new Date()).setDate((new Date()).getDate() - 2),
       today: new Date()
     }
   },
 })
 </script>
-
-
-<style scoped>
-div.v-messages,
-div.v-input__control {
-  display:none !important;
-  height:0px !important;
-}
-</style>
