@@ -2,30 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background-color:#fff833;
-    color:black;
+@layer base {
+    h1 {
+        @apply text-5xl lg:text-7xl mx-auto font-bold
+    }
 }
 
-.number,
-.number-small {
+html {
+    background-color:#393939;
+    color:white;
+}
+
+.number {
     font-family: axia-stencil, sans-serif; 
     color:#ad1409;
-    font-size:200pt;
     line-height:100%;
     pointer-events:none;
 }
 
 .number {
-    font-size:200pt;
+    font-family: axia-stencil, sans-serif; 
+    color:#ad1409;
+    line-height:100%;
+    font-size:60;
+    pointer-events:none;
 }
 
-.number-small {
-    font-size:70pt;
+@screen lg {
+    .number {
+        font-family: axia-stencil, sans-serif; 
+        color:#ad1409;
+        line-height:100%;
+        font-size:230px;
+        pointer-events:none;
+    }
 }
 
 .number-box {
-    border: 1px solid;
+    border: 2px solid;
     box-shadow: 1px 2px 15px black inset;
     background: white;
     line-height:170%;
@@ -38,6 +52,7 @@ h1 {
 
 p {
     font-family:  trasandina, sans-serif;
+    margin-bottom: 15px;
 }
 
 .highlight {

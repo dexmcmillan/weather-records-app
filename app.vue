@@ -1,9 +1,6 @@
 <template>
-  <div id="app" class="mx-auto h-full">
-    <div class="w-3/4 pt-10 mx-auto">
-
-      <!-- The date to which the app is current. -->
-      <p class="text-xl -mb-5">{{ $date(yesterday) }}</p>
+  <div id="app" class="p-5 lg:px-24">
+    <div class="mx-auto">
 
       <!-- A select box that allows the user to choose a city to show. Defaults to Canada. -->
       <!-- Note that province is appended to each item, but it is stripped out later when passed to the page. -->
@@ -14,7 +11,7 @@
         single-line
         dense
         outlined
-        class="w-60 relative top-5"
+        class="w-60"
         >
       </v-select>
 
@@ -24,7 +21,7 @@
     <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" />
 
     <!-- Methodology box. -->
-    <div class="p-10">
+    <div class="text-sm">
       <p>We located all the weather stations within the boundaries of every Census Metropolitan Area (CMA) and Census Agglomeration (CA) in Canada. Every day, we take the previous day's data from Environment and Climate Change Canada and compare it to the same date for that weather station to see if this year was the hottest or coldest day on record for that date. The values above show how many days it's been since a record has been broken.</p>
     </div>
   </div>
