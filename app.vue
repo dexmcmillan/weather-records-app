@@ -1,7 +1,12 @@
 <template>
   <div id="app" class="mx-auto h-full">
     <div class="w-3/4 pt-10 mx-auto">
+
+      <!-- The date to which the app is current. -->
       <p class="text-xl -mb-5">{{ $date(yesterday) }}</p>
+
+      <!-- A select box that allows the user to choose a city to show. Defaults to Canada. -->
+      <!-- Note that province is appended to each item, but it is stripped out later when passed to the page. -->
       <v-select
         :items="temps.map(i => `${i.CMANAME}, ${i.PRUID}`).concat(['Canada']).sort()"
         v-model="cityToShow"
@@ -12,8 +17,13 @@
         class="w-60 relative top-5"
         >
       </v-select>
+
     </div>
+
+    <!-- The sign card itself. -->
     <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" />
+
+    <!-- Methodology box. -->
     <div class="p-10">
       <p>We located all the weather stations within the boundaries of every Census Metropolitan Area (CMA) and Census Agglomeration (CA) in Canada. Every day, we take the previous day's data from Environment and Climate Change Canada and compare it to the same date for that weather station to see if this year was the hottest or coldest day on record for that date. The values above show how many days it's been since a record has been broken.</p>
     </div>
@@ -62,11 +72,11 @@
 export default defineComponent({
   data() {
     return {
+      // Default city to show.
       cityToShow: "Canada",
       // For some reason, our dates are getting set back one day when we use our date plugin (not sure why!)
       // To fix it, we added one to the date in the date plugin. That means here, we need to minus 2 instead of one.
       yesterday: (new Date()).setDate((new Date()).getDate() - 2),
-      today: new Date()
     }
   },
 })
