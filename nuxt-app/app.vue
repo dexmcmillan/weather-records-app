@@ -3,7 +3,7 @@
     <div class="w-3/4 pt-10 mx-auto">
       <p class="text-xl -mb-5">{{ $date(yesterday) }}</p>
       <v-select
-        :items="temps.map(i => i.CMANAME).concat(['Canada']).sort()"
+        :items="temps.map(i => `${i.CMANAME}, ${i.PRUID}`).concat(['Canada']).sort()"
         v-model="cityToShow"
         label="city/town"
         single-line
@@ -13,7 +13,7 @@
         >
       </v-select>
     </div>
-    <NuxtPage :cityToShow="cityToShow" :temps="temps" />
+    <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" />
     <div class="p-10">
       <p>We located all the weather stations within the boundaries of every Census Metropolitan Area (CMA) and Census Agglomeration (CA) in Canada. Every day, we take the previous day's data from Environment and Climate Change Canada and compare it to the same date for that weather station to see if this year was the hottest or coldest day on record for that date. The values above show how many days it's been since a record has been broken.</p>
     </div>
