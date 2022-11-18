@@ -16,14 +16,13 @@ html {
 .number {
     font-family: axia-stencil, sans-serif; 
     color:#ad1409;
-    line-height:100%;
+    line-height:10%;
     pointer-events:none;
 }
 
 .number {
     font-family: axia-stencil, sans-serif; 
     color:#ad1409;
-    line-height:100%;
     font-size:60;
     pointer-events:none;
 }
@@ -31,7 +30,7 @@ html {
 @screen lg {
     .number {
         font-family: axia-stencil, sans-serif; 
-        color:#ad1409;
+        color: #ad1409;
         line-height:100%;
         font-size:230px;
         pointer-events:none;
@@ -56,6 +55,7 @@ p {
 }
 
 .highlight {
+    font-family: axia-stencil, sans-serif;
     font-weight:bold;
     color: #fff833;
 }

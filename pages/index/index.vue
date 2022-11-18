@@ -4,8 +4,9 @@
 
             <!-- The title, which is updated depending on which city the user selects. -->
             <div>
-                <h1><span class="highlight">{{ cityToShow.toUpperCase() }}{{ cityToShow == 'Canada' ? "" : `, ${selectedCity.PRUID.toUpperCase()}` }}</span><br> HAS GONE
-                </h1>
+                <div class="highlight w-fit"><h1>{{ cityToShow.toUpperCase() }}{{ cityToShow == 'Canada' ? "" : `, ${selectedCity.PRUID.toUpperCase()}` }}</h1>
+                </div>
+                <h1>HAS GONE</h1>
             </div>
 
             <!-- This is the "scoreboard-style" number counter. -->
@@ -18,7 +19,7 @@
 
                 <!-- This is the block that fills the white cards with numbers in them. -->
                 <div class="bg-white w-1/5 number-box text-center" v-for="numeral in selectedCity.days_since_record.toString()" :key="numeral.id">
-                    <span class="number text-center text-7xl">{{ numeral }}</span>
+                    <span class="number text-center text-7xl"><transition>{{ numeral }}</transition></span>
                 </div>
 
                 <!-- This block renders on mobile only, where the card view doesn't work so well. -->
@@ -34,7 +35,7 @@
         
         <!-- This fills in some more information about the city the user has selected (the date the record was broken, plus the temperature on that date.). -->
         <div>
-            <p class="text-md lg:text-2xl mb-10"><b>{{ $date(selectedCity.date) }}</b> was the {{ selectedCity.type == 'max' ? "hottest" : 'coldest' }} {{ $date(selectedCity.date).replace(/,\s[0-9]{4}/, "") }} on record <b>{{ cityToShow == "Canada" ? `in ${selectedCity.CMANAME}, ${selectedCity.PRUID}, ` : "" }}</b> with a {{ selectedCity.type == 'max' ? "maximum" : 'minimum' }} temperature of <b>{{ selectedCity.Temp }}°C</b>.
+            <p class="text-md lg:text-2xl mb-10"><b>{{ $date(selectedCity.date) }}</b> was the {{ selectedCity.type == 'max' ? "hottest" : 'coldest' }} {{ $date(selectedCity.date).replace(/,\s[0-9]{4}/, "") }} on record {{ cityToShow == "Canada" ? 'in ' : ''}}<span class="highlight">{{ cityToShow == "Canada" ? `${selectedCity.CMANAME.toUpperCase()}, ${selectedCity.PRUID.toUpperCase()}, ` : "" }}</span> with a temperature of <b>{{ selectedCity.Temp }}°C</b>.
             </p>
         </div>
     </div>
@@ -68,3 +69,16 @@
     })
 
 </script>
+
+<style scoped>
+    /* we will explain what these classes do next! */
+    .v-enter-active,
+    .v-leave-active {
+    transition: opacity 0.5s ease;
+    }
+
+    .v-enter-from,
+    .v-leave-to {
+    opacity: 0;
+    }
+</style>
