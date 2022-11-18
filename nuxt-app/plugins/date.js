@@ -4,15 +4,19 @@ export default (context, inject) => {
         const monthNames = ["Jan.", "Feb.", "March", "April", "May", "June",
             "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."
         ];
+
+        let full_date = new Date(input_date)
+
+        console.log(full_date)
     
-        let date = new Date(input_date).getDate()
+        let date = full_date.getDate()
     
-        let month = new Date(input_date).getMonth()
+        let month = full_date.getMonth()
         month = monthNames[month]
     
-        let year = new Date(input_date).getFullYear()
+        let year = full_date.getFullYear()
         
-        return `${month} ${date}, ${year}`
+        return `${month} ${date + 1}, ${year}`
     }
     
     inject('date', date)

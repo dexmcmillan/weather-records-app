@@ -1,1054 +1,1054 @@
 [
     {
         "Rank": 1,
-        "CMANAME": "Brooks",
-        "PRUID": "Alta.",
-        "date": "2022-08-20",
-        "days_since_record": 2,
-        "Temp": 34.3,
-        "DLY First Year": 1912.0
-    },
-    {
-        "Rank": 1,
-        "CMANAME": "Baie-Comeau",
-        "PRUID": "Que.",
-        "date": "2022-08-20",
-        "days_since_record": 2,
-        "Temp": 28.8,
-        "DLY First Year": 1947.0
-    },
-    {
-        "Rank": 3,
-        "CMANAME": "Port Alberni",
-        "PRUID": "B.C.",
-        "date": "2022-08-18",
-        "days_since_record": 4,
-        "Temp": 37.3,
-        "DLY First Year": 1917.0
-    },
-    {
-        "Rank": 4,
-        "CMANAME": "Okotoks",
-        "PRUID": "Alta.",
-        "date": "2022-08-07",
-        "days_since_record": 15,
-        "Temp": 32.0,
-        "DLY First Year": 1906.0
-    },
-    {
-        "Rank": 5,
-        "CMANAME": "Cranbrook",
-        "PRUID": "B.C.",
-        "date": "2022-07-31",
-        "days_since_record": 22,
-        "Temp": 37.4,
-        "DLY First Year": 1901.0
-    },
-    {
-        "Rank": 5,
-        "CMANAME": "Nelson",
-        "PRUID": "B.C.",
-        "date": "2022-07-31",
-        "days_since_record": 22,
-        "Temp": 39.4,
-        "DLY First Year": 1904.0
-    },
-    {
-        "Rank": 5,
-        "CMANAME": "Penticton",
-        "PRUID": "B.C.",
-        "date": "2022-07-31",
-        "days_since_record": 22,
-        "Temp": 39.0,
-        "DLY First Year": 1907.0
-    },
-    {
-        "Rank": 5,
-        "CMANAME": "Lethbridge",
-        "PRUID": "Alta.",
-        "date": "2022-07-31",
-        "days_since_record": 22,
-        "Temp": 35.3,
-        "DLY First Year": 1886.0
-    },
-    {
-        "Rank": 9,
-        "CMANAME": "Edmonton",
-        "PRUID": "Alta.",
-        "date": "2022-07-29",
-        "days_since_record": 24,
-        "Temp": 34.9,
-        "DLY First Year": 1880.0
-    },
-    {
-        "Rank": 9,
-        "CMANAME": "Trail",
-        "PRUID": "B.C.",
-        "date": "2022-07-29",
-        "days_since_record": 24,
-        "Temp": 40.0,
-        "DLY First Year": 1913.0
-    },
-    {
-        "Rank": 11,
-        "CMANAME": "Wood Buffalo",
-        "PRUID": "Alta.",
-        "date": "2022-07-28",
-        "days_since_record": 25,
-        "Temp": 33.9,
-        "DLY First Year": 1883.0
-    },
-    {
-        "Rank": 11,
-        "CMANAME": "Dawson Creek",
-        "PRUID": "B.C.",
-        "date": "2022-07-28",
-        "days_since_record": 25,
-        "Temp": 32.5,
-        "DLY First Year": 1926.0
-    },
-    {
-        "Rank": 11,
-        "CMANAME": "Grande Prairie",
-        "PRUID": "Alta.",
-        "date": "2022-07-28",
-        "days_since_record": 25,
-        "Temp": 35.2,
-        "DLY First Year": 1922.0
-    },
-    {
-        "Rank": 14,
-        "CMANAME": "Fort St. John",
-        "PRUID": "B.C.",
-        "date": "2022-07-27",
-        "days_since_record": 26,
-        "Temp": 31.7,
-        "DLY First Year": 1910.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Duncan",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 36.5,
-        "DLY First Year": 1921.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Chilliwack",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 38.0,
-        "DLY First Year": 1879.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Vancouver",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 36.2,
-        "DLY First Year": 1874.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Prince Rupert",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 25.8,
-        "DLY First Year": 1959.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Powell River",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 33.6,
-        "DLY First Year": 1924.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Squamish",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 37.1,
-        "DLY First Year": 1959.0
-    },
-    {
-        "Rank": 15,
-        "CMANAME": "Parksville",
-        "PRUID": "B.C.",
-        "date": "2022-07-26",
-        "days_since_record": 27,
-        "Temp": 32.7,
-        "DLY First Year": 1892.0
-    },
-    {
-        "Rank": 22,
         "CMANAME": "Truro",
         "PRUID": "N.S.",
-        "date": "2022-07-24",
-        "days_since_record": 29,
-        "Temp": 33.2,
+        "date": "2022-11-12",
+        "days_since_record": 4,
+        "Temp": 19.2,
         "DLY First Year": 1872.0
     },
     {
-        "Rank": 22,
+        "Rank": 1,
         "CMANAME": "Moncton",
         "PRUID": "N.B.",
-        "date": "2022-07-24",
-        "days_since_record": 29,
-        "Temp": 33.4,
+        "date": "2022-11-12",
+        "days_since_record": 4,
+        "Temp": 20.0,
         "DLY First Year": 1871.0
     },
     {
-        "Rank": 22,
+        "Rank": 1,
+        "CMANAME": "Summerside",
+        "PRUID": "P.E.I.",
+        "date": "2022-11-12",
+        "days_since_record": 4,
+        "Temp": 17.8,
+        "DLY First Year": 1898.0
+    },
+    {
+        "Rank": 1,
+        "CMANAME": "Charlottetown",
+        "PRUID": "P.E.I.",
+        "date": "2022-11-12",
+        "days_since_record": 4,
+        "Temp": 17.9,
+        "DLY First Year": 1872.0
+    },
+    {
+        "Rank": 1,
+        "CMANAME": "Kentville",
+        "PRUID": "N.S.",
+        "date": "2022-11-12",
+        "days_since_record": 4,
+        "Temp": 20.6,
+        "DLY First Year": 1912.0
+    },
+    {
+        "Rank": 6,
+        "CMANAME": "Saint John",
+        "PRUID": "N.B.",
+        "date": "2022-11-11",
+        "days_since_record": 5,
+        "Temp": 18.0,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 6,
+        "CMANAME": "Halifax",
+        "PRUID": "N.S.",
+        "date": "2022-11-11",
+        "days_since_record": 5,
+        "Temp": 19.7,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 8,
+        "CMANAME": "Sault Ste. Marie",
+        "PRUID": "Ont.",
+        "date": "2022-11-10",
+        "days_since_record": 6,
+        "Temp": 20.0,
+        "DLY First Year": 1945.0
+    },
+    {
+        "Rank": 9,
+        "CMANAME": "Edmundston",
+        "PRUID": "N.B.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 17.6,
+        "DLY First Year": 1913.0
+    },
+    {
+        "Rank": 9,
+        "CMANAME": "Miramichi",
+        "PRUID": "N.B.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 19.7,
+        "DLY First Year": 1873.0
+    },
+    {
+        "Rank": 9,
+        "CMANAME": "Bathurst",
+        "PRUID": "N.B.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 20.0,
+        "DLY First Year": 1872.0
+    },
+    {
+        "Rank": 9,
+        "CMANAME": "Baie-Comeau",
+        "PRUID": "Que.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 14.9,
+        "DLY First Year": 1947.0
+    },
+    {
+        "Rank": 9,
+        "CMANAME": "Gander",
+        "PRUID": "N.L.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 18.4,
+        "DLY First Year": 1937.0
+    },
+    {
+        "Rank": 9,
         "CMANAME": "Cape Breton",
         "PRUID": "N.S.",
-        "date": "2022-07-24",
-        "days_since_record": 29,
-        "Temp": 33.2,
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 19.8,
         "DLY First Year": 1941.0
     },
     {
-        "Rank": 25,
-        "CMANAME": "Oshawa",
+        "Rank": 9,
+        "CMANAME": "Fredericton",
+        "PRUID": "N.B.",
+        "date": "2022-11-07",
+        "days_since_record": 9,
+        "Temp": 21.2,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "London",
         "PRUID": "Ont.",
-        "date": "2022-07-19",
-        "days_since_record": 34,
-        "Temp": 33.3,
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 22.0,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Rivi\u00e8re-du-Loup",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 20.9,
+        "DLY First Year": 1963.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Alma",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 20.8,
+        "DLY First Year": 1924.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Trois-Rivi\u00e8res",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 20.1,
+        "DLY First Year": 1920.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Shawinigan",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 19.2,
+        "DLY First Year": 1902.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Centre Wellington",
+        "PRUID": "Ont.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 22.5,
         "DLY First Year": 1882.0
     },
     {
-        "Rank": 26,
-        "CMANAME": "Lloydminster",
-        "PRUID": "Alta.",
-        "date": "2022-07-16",
-        "days_since_record": 37,
-        "Temp": 28.6,
-        "DLY First Year": 1904.0
+        "Rank": 16,
+        "CMANAME": "Qu\u00e9bec",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 20.8,
+        "DLY First Year": 1872.0
     },
     {
-        "Rank": 27,
-        "CMANAME": "Corner Brook",
-        "PRUID": "N.L.",
-        "date": "2022-07-13",
-        "days_since_record": 40,
-        "Temp": 32.0,
-        "DLY First Year": 1933.0
+        "Rank": 16,
+        "CMANAME": "Brockville",
+        "PRUID": "Ont.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 21.8,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Barrie",
+        "PRUID": "Ont.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 28.5,
+        "DLY First Year": 1866.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Ottawa - Gatineau",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 22.1,
+        "DLY First Year": 1870.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Petawawa",
+        "PRUID": "Ont.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 20.7,
+        "DLY First Year": 1970.0
+    },
+    {
+        "Rank": 16,
+        "CMANAME": "Saguenay",
+        "PRUID": "Que.",
+        "date": "2022-11-06",
+        "days_since_record": 10,
+        "Temp": 23.7,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Belleville - Quinte West",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 23.3,
+        "DLY First Year": 1895.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Montr\u00e9al",
+        "PRUID": "Que.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 24.4,
+        "DLY First Year": 1871.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Granby",
+        "PRUID": "Que.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 23.6,
+        "DLY First Year": 1948.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Sherbrooke",
+        "PRUID": "Que.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 23.2,
+        "DLY First Year": 1888.0
     },
     {
         "Rank": 28,
         "CMANAME": "Peterborough",
         "PRUID": "Ont.",
-        "date": "2022-06-22",
-        "days_since_record": 61,
-        "Temp": 34.1,
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 22.9,
         "DLY First Year": 1866.0
     },
     {
         "Rank": 28,
+        "CMANAME": "Oshawa",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 23.0,
+        "DLY First Year": 1882.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Cornwall",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 25.0,
+        "DLY First Year": 1867.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Brantford",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 24.3,
+        "DLY First Year": 1876.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "St. Catharines - Niagara",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 26.8,
+        "DLY First Year": 1872.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Norfolk",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 24.2,
+        "DLY First Year": 1866.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Hamilton",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 26.0,
+        "DLY First Year": 1866.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Collingwood",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 24.6,
+        "DLY First Year": 1869.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Kitchener - Cambridge - Waterloo",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 23.9,
+        "DLY First Year": 1879.0
+    },
+    {
+        "Rank": 28,
+        "CMANAME": "Owen Sound",
+        "PRUID": "Ont.",
+        "date": "2022-11-05",
+        "days_since_record": 11,
+        "Temp": 22.7,
+        "DLY First Year": 1875.0
+    },
+    {
+        "Rank": 42,
+        "CMANAME": "Rouyn-Noranda",
+        "PRUID": "Que.",
+        "date": "2022-11-04",
+        "days_since_record": 12,
+        "Temp": 19.5,
+        "DLY First Year": 1927.0
+    },
+    {
+        "Rank": 42,
+        "CMANAME": "Drummondville",
+        "PRUID": "Que.",
+        "date": "2022-11-04",
+        "days_since_record": 12,
+        "Temp": 19.4,
+        "DLY First Year": 1913.0
+    },
+    {
+        "Rank": 42,
+        "CMANAME": "Val-d'Or",
+        "PRUID": "Que.",
+        "date": "2022-11-04",
+        "days_since_record": 12,
+        "Temp": 18.9,
+        "DLY First Year": 1951.0
+    },
+    {
+        "Rank": 45,
+        "CMANAME": "Thunder Bay",
+        "PRUID": "Ont.",
+        "date": "2022-11-03",
+        "days_since_record": 13,
+        "Temp": 21.3,
+        "DLY First Year": 1877.0
+    },
+    {
+        "Rank": 46,
+        "CMANAME": "Kenora",
+        "PRUID": "Ont.",
+        "date": "2022-11-02",
+        "days_since_record": 14,
+        "Temp": 19.4,
+        "DLY First Year": 1938.0
+    },
+    {
+        "Rank": 47,
+        "CMANAME": "Lloydminster",
+        "PRUID": "Alta.",
+        "date": "2022-10-30",
+        "days_since_record": 17,
+        "Temp": 15.0,
+        "DLY First Year": 1904.0
+    },
+    {
+        "Rank": 48,
+        "CMANAME": "Salmon Arm",
+        "PRUID": "B.C.",
+        "date": "2022-10-29",
+        "days_since_record": 18,
+        "Temp": 16.9,
+        "DLY First Year": 1893.0
+    },
+    {
+        "Rank": 49,
+        "CMANAME": "St. John's",
+        "PRUID": "N.L.",
+        "date": "2022-10-27",
+        "days_since_record": 20,
+        "Temp": 21.6,
+        "DLY First Year": 1874.0
+    },
+    {
+        "Rank": 49,
+        "CMANAME": "Corner Brook",
+        "PRUID": "N.L.",
+        "date": "2022-10-27",
+        "days_since_record": 20,
+        "Temp": 21.0,
+        "DLY First Year": 1933.0
+    },
+    {
+        "Rank": 51,
+        "CMANAME": "Sudbury",
+        "PRUID": "Ont.",
+        "date": "2022-10-25",
+        "days_since_record": 22,
+        "Temp": 20.6,
+        "DLY First Year": 1887.0
+    },
+    {
+        "Rank": 52,
+        "CMANAME": "Sept-\u00celes",
+        "PRUID": "Que.",
+        "date": "2022-10-23",
+        "days_since_record": 24,
+        "Temp": 16.6,
+        "DLY First Year": 1903.0
+    },
+    {
+        "Rank": 53,
+        "CMANAME": "Port Alberni",
+        "PRUID": "B.C.",
+        "date": "2022-10-20",
+        "days_since_record": 27,
+        "Temp": 22.5,
+        "DLY First Year": 1917.0
+    },
+    {
+        "Rank": 54,
+        "CMANAME": "Campbell River",
+        "PRUID": "B.C.",
+        "date": "2022-10-19",
+        "days_since_record": 28,
+        "Temp": 21.5,
+        "DLY First Year": 1919.0
+    },
+    {
+        "Rank": 54,
+        "CMANAME": "Nanaimo",
+        "PRUID": "B.C.",
+        "date": "2022-10-19",
+        "days_since_record": 28,
+        "Temp": 20.9,
+        "DLY First Year": 1892.0
+    },
+    {
+        "Rank": 54,
+        "CMANAME": "Grande Prairie",
+        "PRUID": "Alta.",
+        "date": "2022-10-19",
+        "days_since_record": 28,
+        "Temp": 19.6,
+        "DLY First Year": 1922.0
+    },
+    {
+        "Rank": 54,
+        "CMANAME": "Okotoks",
+        "PRUID": "Alta.",
+        "date": "2022-10-19",
+        "days_since_record": 28,
+        "Temp": 24.0,
+        "DLY First Year": 1906.0
+    },
+    {
+        "Rank": 54,
+        "CMANAME": "Edmonton",
+        "PRUID": "Alta.",
+        "date": "2022-10-19",
+        "days_since_record": 28,
+        "Temp": 27.0,
+        "DLY First Year": 1880.0
+    },
+    {
+        "Rank": 59,
+        "CMANAME": "Dawson Creek",
+        "PRUID": "B.C.",
+        "date": "2022-10-18",
+        "days_since_record": 29,
+        "Temp": 22.4,
+        "DLY First Year": 1926.0
+    },
+    {
+        "Rank": 59,
+        "CMANAME": "Quesnel",
+        "PRUID": "B.C.",
+        "date": "2022-10-18",
+        "days_since_record": 29,
+        "Temp": 20.8,
+        "DLY First Year": 1888.0
+    },
+    {
+        "Rank": 59,
+        "CMANAME": "Wood Buffalo",
+        "PRUID": "Alta.",
+        "date": "2022-10-18",
+        "days_since_record": 29,
+        "Temp": 21.8,
+        "DLY First Year": 1883.0
+    },
+    {
+        "Rank": 59,
+        "CMANAME": "Lethbridge",
+        "PRUID": "Alta.",
+        "date": "2022-10-18",
+        "days_since_record": 29,
+        "Temp": 26.9,
+        "DLY First Year": 1886.0
+    },
+    {
+        "Rank": 59,
+        "CMANAME": "Ladysmith",
+        "PRUID": "B.C.",
+        "date": "2022-10-18",
+        "days_since_record": 29,
+        "Temp": 18.5,
+        "DLY First Year": 1913.0
+    },
+    {
+        "Rank": 64,
+        "CMANAME": "Williams Lake",
+        "PRUID": "B.C.",
+        "date": "2022-10-17",
+        "days_since_record": 30,
+        "Temp": 20.0,
+        "DLY First Year": 1879.0
+    },
+    {
+        "Rank": 64,
+        "CMANAME": "Fort St. John",
+        "PRUID": "B.C.",
+        "date": "2022-10-17",
+        "days_since_record": 30,
+        "Temp": 22.5,
+        "DLY First Year": 1910.0
+    },
+    {
+        "Rank": 64,
+        "CMANAME": "Calgary",
+        "PRUID": "Alta.",
+        "date": "2022-10-17",
+        "days_since_record": 30,
+        "Temp": 27.5,
+        "DLY First Year": 1881.0
+    },
+    {
+        "Rank": 64,
+        "CMANAME": "Nelson",
+        "PRUID": "B.C.",
+        "date": "2022-10-17",
+        "days_since_record": 30,
+        "Temp": 19.4,
+        "DLY First Year": 1904.0
+    },
+    {
+        "Rank": 64,
+        "CMANAME": "Chilliwack",
+        "PRUID": "B.C.",
+        "date": "2022-10-17",
+        "days_since_record": 30,
+        "Temp": 27.0,
+        "DLY First Year": 1879.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Victoria",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 24.6,
+        "DLY First Year": 1872.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Duncan",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 25.7,
+        "DLY First Year": 1921.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Squamish",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 25.8,
+        "DLY First Year": 1959.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Powell River",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 23.5,
+        "DLY First Year": 1924.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Terrace",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 18.0,
+        "DLY First Year": 1912.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Prince Rupert",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 21.0,
+        "DLY First Year": 1959.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Whitehorse",
+        "PRUID": "Yukon",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 16.8,
+        "DLY First Year": 1900.0
+    },
+    {
+        "Rank": 69,
+        "CMANAME": "Abbotsford - Mission",
+        "PRUID": "B.C.",
+        "date": "2022-10-16",
+        "days_since_record": 31,
+        "Temp": 27.0,
+        "DLY First Year": 1909.0
+    },
+    {
+        "Rank": 77,
+        "CMANAME": "Vancouver",
+        "PRUID": "B.C.",
+        "date": "2022-10-15",
+        "days_since_record": 32,
+        "Temp": 27.5,
+        "DLY First Year": 1874.0
+    },
+    {
+        "Rank": 78,
+        "CMANAME": "Parksville",
+        "PRUID": "B.C.",
+        "date": "2022-10-14",
+        "days_since_record": 33,
+        "Temp": 22.1,
+        "DLY First Year": 1892.0
+    },
+    {
+        "Rank": 79,
+        "CMANAME": "Vernon",
+        "PRUID": "B.C.",
+        "date": "2022-10-12",
+        "days_since_record": 35,
+        "Temp": 21.9,
+        "DLY First Year": 1893.0
+    },
+    {
+        "Rank": 80,
+        "CMANAME": "Penticton",
+        "PRUID": "B.C.",
+        "date": "2022-10-10",
+        "days_since_record": 37,
+        "Temp": 25.6,
+        "DLY First Year": 1907.0
+    },
+    {
+        "Rank": 81,
+        "CMANAME": "Moose Jaw",
+        "PRUID": "Sask.",
+        "date": "2022-09-29",
+        "days_since_record": 48,
+        "Temp": 33.0,
+        "DLY First Year": 1884.0
+    },
+    {
+        "Rank": 81,
+        "CMANAME": "Weyburn",
+        "PRUID": "Sask.",
+        "date": "2022-09-29",
+        "days_since_record": 48,
+        "Temp": 29.5,
+        "DLY First Year": 1900.0
+    },
+    {
+        "Rank": 83,
+        "CMANAME": "Medicine Hat",
+        "PRUID": "Alta.",
+        "date": "2022-09-28",
+        "days_since_record": 49,
+        "Temp": 34.1,
+        "DLY First Year": 1883.0
+    },
+    {
+        "Rank": 83,
+        "CMANAME": "Swift Current",
+        "PRUID": "Sask.",
+        "date": "2022-09-28",
+        "days_since_record": 49,
+        "Temp": 31.8,
+        "DLY First Year": 1885.0
+    },
+    {
+        "Rank": 85,
+        "CMANAME": "Yellowknife",
+        "PRUID": "N.W.T.",
+        "date": "2022-09-27",
+        "days_since_record": 50,
+        "Temp": 22.3,
+        "DLY First Year": 1942.0
+    },
+    {
+        "Rank": 86,
+        "CMANAME": "Estevan",
+        "PRUID": "Sask.",
+        "date": "2022-09-05",
+        "days_since_record": 72,
+        "Temp": 35.3,
+        "DLY First Year": 1899.0
+    },
+    {
+        "Rank": 87,
+        "CMANAME": "North Battleford",
+        "PRUID": "Sask.",
+        "date": "2022-09-04",
+        "days_since_record": 73,
+        "Temp": 36.5,
+        "DLY First Year": 1879.0
+    },
+    {
+        "Rank": 87,
+        "CMANAME": "Brooks",
+        "PRUID": "Alta.",
+        "date": "2022-09-04",
+        "days_since_record": 73,
+        "Temp": 34.1,
+        "DLY First Year": 1912.0
+    },
+    {
+        "Rank": 89,
+        "CMANAME": "Prince Albert",
+        "PRUID": "Sask.",
+        "date": "2022-09-03",
+        "days_since_record": 74,
+        "Temp": 31.9,
+        "DLY First Year": 1884.0
+    },
+    {
+        "Rank": 89,
+        "CMANAME": "Saskatoon",
+        "PRUID": "Sask.",
+        "date": "2022-09-03",
+        "days_since_record": 74,
+        "Temp": 35.1,
+        "DLY First Year": 1892.0
+    },
+    {
+        "Rank": 91,
+        "CMANAME": "Kamloops",
+        "PRUID": "B.C.",
+        "date": "2022-09-02",
+        "days_since_record": 75,
+        "Temp": 38.3,
+        "DLY First Year": 1878.0
+    },
+    {
+        "Rank": 91,
+        "CMANAME": "Trail",
+        "PRUID": "B.C.",
+        "date": "2022-09-02",
+        "days_since_record": 75,
+        "Temp": 37.5,
+        "DLY First Year": 1913.0
+    },
+    {
+        "Rank": 93,
+        "CMANAME": "Prince George",
+        "PRUID": "B.C.",
+        "date": "2022-08-25",
+        "days_since_record": 83,
+        "Temp": 32.2,
+        "DLY First Year": 1912.0
+    },
+    {
+        "Rank": 94,
+        "CMANAME": "Cranbrook",
+        "PRUID": "B.C.",
+        "date": "2022-07-31",
+        "days_since_record": 108,
+        "Temp": 37.4,
+        "DLY First Year": 1901.0
+    },
+    {
+        "Rank": 95,
         "CMANAME": "Cobourg",
         "PRUID": "Ont.",
         "date": "2022-06-22",
-        "days_since_record": 61,
+        "days_since_record": 147,
         "Temp": 29.0,
         "DLY First Year": 1948.0
     },
     {
-        "Rank": 28,
+        "Rank": 95,
         "CMANAME": "Toronto",
         "PRUID": "Ont.",
         "date": "2022-06-22",
-        "days_since_record": 61,
+        "days_since_record": 147,
         "Temp": 35.8,
         "DLY First Year": 1840.0
     },
     {
-        "Rank": 31,
-        "CMANAME": "Sarnia",
-        "PRUID": "Ont.",
-        "date": "2022-06-21",
-        "days_since_record": 62,
-        "Temp": 34.5,
-        "DLY First Year": 1882.0
-    },
-    {
-        "Rank": 31,
-        "CMANAME": "Kitchener - Cambridge - Waterloo",
-        "PRUID": "Ont.",
-        "date": "2022-06-21",
-        "days_since_record": 62,
-        "Temp": 34.1,
-        "DLY First Year": 1879.0
-    },
-    {
-        "Rank": 31,
-        "CMANAME": "Centre Wellington",
-        "PRUID": "Ont.",
-        "date": "2022-06-21",
-        "days_since_record": 62,
-        "Temp": 32.6,
-        "DLY First Year": 1882.0
-    },
-    {
-        "Rank": 31,
+        "Rank": 97,
         "CMANAME": "Woodstock",
         "PRUID": "Ont.",
         "date": "2022-06-21",
-        "days_since_record": 62,
+        "days_since_record": 148,
         "Temp": 33.5,
         "DLY First Year": 1870.0
     },
     {
-        "Rank": 31,
-        "CMANAME": "Sault Ste. Marie",
+        "Rank": 97,
+        "CMANAME": "Sarnia",
         "PRUID": "Ont.",
         "date": "2022-06-21",
-        "days_since_record": 62,
-        "Temp": 30.5,
-        "DLY First Year": 1945.0
+        "days_since_record": 148,
+        "Temp": 34.5,
+        "DLY First Year": 1882.0
     },
     {
-        "Rank": 36,
-        "CMANAME": "Thunder Bay",
-        "PRUID": "Ont.",
-        "date": "2022-06-20",
-        "days_since_record": 63,
-        "Temp": 34.1,
-        "DLY First Year": 1877.0
-    },
-    {
-        "Rank": 37,
-        "CMANAME": "Kenora",
-        "PRUID": "Ont.",
-        "date": "2022-06-19",
-        "days_since_record": 64,
-        "Temp": 33.0,
-        "DLY First Year": 1938.0
-    },
-    {
-        "Rank": 37,
+        "Rank": 99,
         "CMANAME": "Winkler",
         "PRUID": "Man.",
         "date": "2022-06-19",
-        "days_since_record": 64,
+        "days_since_record": 150,
         "Temp": 36.7,
         "DLY First Year": 1885.0
     },
     {
-        "Rank": 39,
-        "CMANAME": "Moose Jaw",
-        "PRUID": "Sask.",
-        "date": "2022-06-18",
-        "days_since_record": 65,
-        "Temp": 35.9,
-        "DLY First Year": 1884.0
-    },
-    {
-        "Rank": 40,
+        "Rank": 100,
         "CMANAME": "Windsor",
         "PRUID": "Ont.",
         "date": "2022-06-15",
-        "days_since_record": 68,
+        "days_since_record": 154,
         "Temp": 35.5,
         "DLY First Year": 1866.0
     },
     {
-        "Rank": 41,
-        "CMANAME": "Barrie",
-        "PRUID": "Ont.",
-        "date": "2022-05-31",
-        "days_since_record": 83,
-        "Temp": 32.5,
-        "DLY First Year": 1866.0
-    },
-    {
-        "Rank": 42,
-        "CMANAME": "Summerside",
-        "PRUID": "P.E.I.",
-        "date": "2022-05-22",
-        "days_since_record": 92,
-        "Temp": 27.4,
-        "DLY First Year": 1898.0
-    },
-    {
-        "Rank": 43,
-        "CMANAME": "Trois-Rivi\u00e8res",
-        "PRUID": "Que.",
-        "date": "2022-05-21",
-        "days_since_record": 93,
-        "Temp": 30.7,
-        "DLY First Year": 1920.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Sherbrooke",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 31.2,
-        "DLY First Year": 1888.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Collingwood",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 30.1,
-        "DLY First Year": 1869.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Rouyn-Noranda",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 30.1,
-        "DLY First Year": 1927.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Petawawa",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 31.0,
-        "DLY First Year": 1970.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Saint John",
-        "PRUID": "N.B.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 27.0,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Cornwall",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 31.5,
-        "DLY First Year": 1867.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Ottawa - Gatineau",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 31.8,
-        "DLY First Year": 1870.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "North Bay",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 30.9,
-        "DLY First Year": 1887.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Timmins",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 32.1,
-        "DLY First Year": 1913.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Sudbury",
-        "PRUID": "Ont.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 29.0,
-        "DLY First Year": 1887.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Alma",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 26.7,
-        "DLY First Year": 1924.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Saguenay",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 27.7,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Val-d'Or",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 30.8,
-        "DLY First Year": 1951.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Montr\u00e9al",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 32.2,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Shawinigan",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 31.3,
-        "DLY First Year": 1902.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Granby",
-        "PRUID": "Que.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 30.8,
-        "DLY First Year": 1948.0
-    },
-    {
-        "Rank": 44,
-        "CMANAME": "Edmundston",
-        "PRUID": "N.B.",
-        "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 28.7,
-        "DLY First Year": 1913.0
-    },
-    {
-        "Rank": 44,
+        "Rank": 101,
         "CMANAME": "Thetford Mines",
         "PRUID": "Que.",
         "date": "2022-05-14",
-        "days_since_record": 100,
+        "days_since_record": 186,
         "Temp": 29.9,
         "DLY First Year": 1922.0
     },
     {
-        "Rank": 44,
-        "CMANAME": "Drummondville",
-        "PRUID": "Que.",
+        "Rank": 101,
+        "CMANAME": "North Bay",
+        "PRUID": "Ont.",
         "date": "2022-05-14",
-        "days_since_record": 100,
-        "Temp": 32.2,
+        "days_since_record": 186,
+        "Temp": 30.9,
+        "DLY First Year": 1887.0
+    },
+    {
+        "Rank": 101,
+        "CMANAME": "Timmins",
+        "PRUID": "Ont.",
+        "date": "2022-05-14",
+        "days_since_record": 186,
+        "Temp": 32.1,
         "DLY First Year": 1913.0
     },
     {
-        "Rank": 63,
-        "CMANAME": "Rivi\u00e8re-du-Loup",
-        "PRUID": "Que.",
-        "date": "2022-05-13",
-        "days_since_record": 101,
-        "Temp": 27.8,
-        "DLY First Year": 1963.0
-    },
-    {
-        "Rank": 63,
-        "CMANAME": "Miramichi",
-        "PRUID": "N.B.",
-        "date": "2022-05-13",
-        "days_since_record": 101,
-        "Temp": 32.3,
-        "DLY First Year": 1873.0
-    },
-    {
-        "Rank": 63,
-        "CMANAME": "Fredericton",
-        "PRUID": "N.B.",
-        "date": "2022-05-13",
-        "days_since_record": 101,
-        "Temp": 30.2,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 63,
-        "CMANAME": "Charlottetown",
-        "PRUID": "P.E.I.",
-        "date": "2022-05-13",
-        "days_since_record": 101,
-        "Temp": 25.5,
-        "DLY First Year": 1872.0
-    },
-    {
-        "Rank": 63,
-        "CMANAME": "Qu\u00e9bec",
-        "PRUID": "Que.",
-        "date": "2022-05-13",
-        "days_since_record": 101,
-        "Temp": 31.5,
-        "DLY First Year": 1872.0
-    },
-    {
-        "Rank": 68,
+        "Rank": 104,
         "CMANAME": "Orillia",
         "PRUID": "Ont.",
         "date": "2022-05-12",
-        "days_since_record": 102,
+        "days_since_record": 188,
         "Temp": 29.0,
         "DLY First Year": 1871.0
     },
     {
-        "Rank": 68,
-        "CMANAME": "Halifax",
-        "PRUID": "N.S.",
-        "date": "2022-05-12",
-        "days_since_record": 102,
-        "Temp": 28.5,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 68,
-        "CMANAME": "Brockville",
-        "PRUID": "Ont.",
-        "date": "2022-05-12",
-        "days_since_record": 102,
-        "Temp": 29.8,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 68,
-        "CMANAME": "Sept-\u00celes",
-        "PRUID": "Que.",
-        "date": "2022-05-12",
-        "days_since_record": 102,
-        "Temp": 22.6,
-        "DLY First Year": 1903.0
-    },
-    {
-        "Rank": 72,
-        "CMANAME": "Terrace",
-        "PRUID": "B.C.",
-        "date": "2022-03-17",
-        "days_since_record": 158,
-        "Temp": 18.5,
-        "DLY First Year": 1912.0
-    },
-    {
-        "Rank": 72,
-        "CMANAME": "Hamilton",
-        "PRUID": "Ont.",
-        "date": "2022-03-17",
-        "days_since_record": 158,
-        "Temp": 21.0,
-        "DLY First Year": 1866.0
-    },
-    {
-        "Rank": 74,
-        "CMANAME": "Gander",
-        "PRUID": "N.L.",
-        "date": "2022-03-13",
-        "days_since_record": 162,
-        "Temp": 12.4,
-        "DLY First Year": 1937.0
-    },
-    {
-        "Rank": 75,
-        "CMANAME": "Kentville",
-        "PRUID": "N.S.",
-        "date": "2022-03-12",
-        "days_since_record": 163,
-        "Temp": 15.0,
-        "DLY First Year": 1912.0
-    },
-    {
-        "Rank": 76,
+        "Rank": 105,
         "CMANAME": "Kingston",
         "PRUID": "Ont.",
         "date": "2022-03-06",
-        "days_since_record": 169,
+        "days_since_record": 255,
         "Temp": 14.5,
         "DLY First Year": 1872.0
     },
     {
-        "Rank": 76,
-        "CMANAME": "Belleville - Quinte West",
-        "PRUID": "Ont.",
-        "date": "2022-03-06",
-        "days_since_record": 169,
-        "Temp": 15.2,
-        "DLY First Year": 1895.0
-    },
-    {
-        "Rank": 78,
-        "CMANAME": "Ladysmith",
-        "PRUID": "B.C.",
-        "date": "2022-02-19",
-        "days_since_record": 184,
-        "Temp": 13.0,
-        "DLY First Year": 1913.0
-    },
-    {
-        "Rank": 79,
-        "CMANAME": "St. John's",
-        "PRUID": "N.L.",
-        "date": "2022-02-18",
-        "days_since_record": 185,
-        "Temp": 12.1,
-        "DLY First Year": 1874.0
-    },
-    {
-        "Rank": 80,
-        "CMANAME": "North Battleford",
-        "PRUID": "Sask.",
-        "date": "2022-02-10",
-        "days_since_record": 193,
-        "Temp": 7.3,
-        "DLY First Year": 1879.0
-    },
-    {
-        "Rank": 80,
+        "Rank": 106,
         "CMANAME": "Brandon",
         "PRUID": "Man.",
         "date": "2022-02-10",
-        "days_since_record": 193,
+        "days_since_record": 279,
         "Temp": 3.8,
         "DLY First Year": 1885.0
     },
     {
-        "Rank": 82,
+        "Rank": 107,
         "CMANAME": "Kelowna",
         "PRUID": "B.C.",
         "date": "2022-02-07",
-        "days_since_record": 196,
+        "days_since_record": 282,
         "Temp": 14.0,
         "DLY First Year": 1899.0
     },
     {
-        "Rank": 82,
-        "CMANAME": "Salmon Arm",
-        "PRUID": "B.C.",
-        "date": "2022-02-07",
-        "days_since_record": 196,
-        "Temp": 12.9,
-        "DLY First Year": 1893.0
-    },
-    {
-        "Rank": 84,
-        "CMANAME": "Medicine Hat",
-        "PRUID": "Alta.",
-        "date": "2022-01-17",
-        "days_since_record": 217,
-        "Temp": 13.6,
-        "DLY First Year": 1883.0
-    },
-    {
-        "Rank": 85,
-        "CMANAME": "Victoria",
-        "PRUID": "B.C.",
-        "date": "2022-01-12",
-        "days_since_record": 222,
-        "Temp": 14.6,
-        "DLY First Year": 1872.0
-    },
-    {
-        "Rank": 86,
-        "CMANAME": "Lachute",
-        "PRUID": "Que.",
-        "date": "2021-12-16",
-        "days_since_record": 249,
-        "Temp": 13.2,
-        "DLY First Year": 1963.0
-    },
-    {
-        "Rank": 86,
-        "CMANAME": "Saint-Georges",
-        "PRUID": "Que.",
-        "date": "2021-12-16",
-        "days_since_record": 249,
-        "Temp": 10.0,
-        "DLY First Year": 1963.0
-    },
-    {
-        "Rank": 86,
-        "CMANAME": "Saint-Hyacinthe",
-        "PRUID": "Que.",
-        "date": "2021-12-16",
-        "days_since_record": 249,
-        "Temp": 14.0,
-        "DLY First Year": 1890.0
-    },
-    {
-        "Rank": 86,
+        "Rank": 108,
         "CMANAME": "Victoriaville",
         "PRUID": "Que.",
         "date": "2021-12-16",
-        "days_since_record": 249,
+        "days_since_record": 335,
         "Temp": 14.0,
         "DLY First Year": 1949.0
     },
     {
-        "Rank": 86,
-        "CMANAME": "Owen Sound",
-        "PRUID": "Ont.",
+        "Rank": 108,
+        "CMANAME": "Saint-Hyacinthe",
+        "PRUID": "Que.",
         "date": "2021-12-16",
-        "days_since_record": 249,
-        "Temp": 16.0,
-        "DLY First Year": 1875.0
+        "days_since_record": 335,
+        "Temp": 14.0,
+        "DLY First Year": 1890.0
     },
     {
-        "Rank": 86,
+        "Rank": 108,
+        "CMANAME": "Saint-Georges",
+        "PRUID": "Que.",
+        "date": "2021-12-16",
+        "days_since_record": 335,
+        "Temp": 10.0,
+        "DLY First Year": 1963.0
+    },
+    {
+        "Rank": 108,
         "CMANAME": "Sorel-Tracy",
         "PRUID": "Que.",
         "date": "2021-12-16",
-        "days_since_record": 249,
+        "days_since_record": 335,
         "Temp": 13.0,
         "DLY First Year": 1914.0
     },
     {
-        "Rank": 92,
-        "CMANAME": "Brantford",
-        "PRUID": "Ont.",
-        "date": "2021-12-15",
-        "days_since_record": 250,
-        "Temp": 12.5,
-        "DLY First Year": 1876.0
+        "Rank": 108,
+        "CMANAME": "Lachute",
+        "PRUID": "Que.",
+        "date": "2021-12-16",
+        "days_since_record": 335,
+        "Temp": 13.2,
+        "DLY First Year": 1963.0
     },
     {
-        "Rank": 93,
-        "CMANAME": "London",
-        "PRUID": "Ont.",
-        "date": "2021-12-11",
-        "days_since_record": 254,
-        "Temp": 16.5,
-        "DLY First Year": 1871.0
-    },
-    {
-        "Rank": 93,
-        "CMANAME": "Norfolk",
-        "PRUID": "Ont.",
-        "date": "2021-12-11",
-        "days_since_record": 254,
-        "Temp": 16.7,
-        "DLY First Year": 1866.0
-    },
-    {
-        "Rank": 93,
-        "CMANAME": "St. Catharines - Niagara",
-        "PRUID": "Ont.",
-        "date": "2021-12-11",
-        "days_since_record": 254,
-        "Temp": 19.2,
-        "DLY First Year": 1872.0
-    },
-    {
-        "Rank": 93,
+        "Rank": 113,
         "CMANAME": "Guelph",
         "PRUID": "Ont.",
         "date": "2021-12-11",
-        "days_since_record": 254,
+        "days_since_record": 340,
         "Temp": 16.2,
         "DLY First Year": 1881.0
     },
     {
-        "Rank": 97,
-        "CMANAME": "Nanaimo",
-        "PRUID": "B.C.",
-        "date": "2021-12-01",
-        "days_since_record": 264,
-        "Temp": 16.7,
-        "DLY First Year": 1892.0
-    },
-    {
-        "Rank": 97,
-        "CMANAME": "Vernon",
-        "PRUID": "B.C.",
-        "date": "2021-12-01",
-        "days_since_record": 264,
-        "Temp": 17.5,
-        "DLY First Year": 1893.0
-    },
-    {
-        "Rank": 99,
-        "CMANAME": "Estevan",
-        "PRUID": "Sask.",
-        "date": "2021-10-06",
-        "days_since_record": 320,
-        "Temp": 32.3,
-        "DLY First Year": 1899.0
-    },
-    {
-        "Rank": 99,
+        "Rank": 114,
         "CMANAME": "Yorkton",
         "PRUID": "Sask.",
         "date": "2021-10-06",
-        "days_since_record": 320,
+        "days_since_record": 406,
         "Temp": 28.8,
         "DLY First Year": 1884.0
     },
     {
-        "Rank": 99,
-        "CMANAME": "Weyburn",
-        "PRUID": "Sask.",
-        "date": "2021-10-06",
-        "days_since_record": 320,
-        "Temp": 30.7,
-        "DLY First Year": 1900.0
-    },
-    {
-        "Rank": 102,
-        "CMANAME": "Prince Albert",
-        "PRUID": "Sask.",
-        "date": "2021-09-28",
-        "days_since_record": 328,
-        "Temp": 31.2,
-        "DLY First Year": 1884.0
-    },
-    {
-        "Rank": 102,
+        "Rank": 115,
         "CMANAME": "Winnipeg",
         "PRUID": "Man.",
         "date": "2021-09-28",
-        "days_since_record": 328,
+        "days_since_record": 414,
         "Temp": 29.6,
         "DLY First Year": 1872.0
     },
     {
-        "Rank": 102,
-        "CMANAME": "Saskatoon",
-        "PRUID": "Sask.",
-        "date": "2021-09-28",
-        "days_since_record": 328,
-        "Temp": 30.9,
-        "DLY First Year": 1892.0
-    },
-    {
-        "Rank": 105,
-        "CMANAME": "Swift Current",
-        "PRUID": "Sask.",
-        "date": "2021-08-14",
-        "days_since_record": 373,
-        "Temp": 36.8,
-        "DLY First Year": 1885.0
-    },
-    {
-        "Rank": 106,
-        "CMANAME": "Campbell River",
-        "PRUID": "B.C.",
-        "date": "2021-08-13",
-        "days_since_record": 374,
-        "Temp": 37.0,
-        "DLY First Year": 1919.0
-    },
-    {
-        "Rank": 106,
-        "CMANAME": "Prince George",
-        "PRUID": "B.C.",
-        "date": "2021-08-13",
-        "days_since_record": 374,
-        "Temp": 34.0,
-        "DLY First Year": 1912.0
-    },
-    {
-        "Rank": 108,
-        "CMANAME": "Abbotsford - Mission",
-        "PRUID": "B.C.",
-        "date": "2021-08-12",
-        "days_since_record": 375,
-        "Temp": 39.4,
-        "DLY First Year": 1909.0
-    },
-    {
-        "Rank": 108,
+        "Rank": 116,
         "CMANAME": "Courtenay",
         "PRUID": "B.C.",
         "date": "2021-08-12",
-        "days_since_record": 375,
+        "days_since_record": 461,
         "Temp": 35.4,
         "DLY First Year": 1893.0
-    },
-    {
-        "Rank": 110,
-        "CMANAME": "Yellowknife",
-        "PRUID": "N.W.T.",
-        "date": "2021-08-02",
-        "days_since_record": 385,
-        "Temp": 32.6,
-        "DLY First Year": 1942.0
-    },
-    {
-        "Rank": 111,
-        "CMANAME": "Calgary",
-        "PRUID": "Alta.",
-        "date": "2021-07-01",
-        "days_since_record": 417,
-        "Temp": 36.3,
-        "DLY First Year": 1881.0
-    },
-    {
-        "Rank": 112,
-        "CMANAME": "Kamloops",
-        "PRUID": "B.C.",
-        "date": "2021-06-30",
-        "days_since_record": 418,
-        "Temp": 46.6,
-        "DLY First Year": 1878.0
-    },
-    {
-        "Rank": 112,
-        "CMANAME": "Quesnel",
-        "PRUID": "B.C.",
-        "date": "2021-06-30",
-        "days_since_record": 418,
-        "Temp": 37.0,
-        "DLY First Year": 1888.0
-    },
-    {
-        "Rank": 112,
-        "CMANAME": "Williams Lake",
-        "PRUID": "B.C.",
-        "date": "2021-06-30",
-        "days_since_record": 418,
-        "Temp": 37.1,
-        "DLY First Year": 1879.0
-    },
-    {
-        "Rank": 115,
-        "CMANAME": "Whitehorse",
-        "PRUID": "Yukon",
-        "date": "2021-06-28",
-        "days_since_record": 420,
-        "Temp": 31.2,
-        "DLY First Year": 1900.0
-    },
-    {
-        "Rank": 116,
-        "CMANAME": "Bathurst",
-        "PRUID": "N.B.",
-        "date": "2021-06-08",
-        "days_since_record": 440,
-        "Temp": 33.1,
-        "DLY First Year": 1872.0
     },
     {
         "Rank": 117,
         "CMANAME": "Amos",
         "PRUID": "Que.",
         "date": "2021-05-19",
-        "days_since_record": 460,
+        "days_since_record": 546,
         "Temp": 30.0,
         "DLY First Year": 1913.0
     },
@@ -1057,7 +1057,7 @@
         "CMANAME": "Chatham-Kent",
         "PRUID": "Ont.",
         "date": "2021-03-11",
-        "days_since_record": 529,
+        "days_since_record": 615,
         "Temp": 19.4,
         "DLY First Year": 1879.0
     },
@@ -1066,7 +1066,7 @@
         "CMANAME": "Rimouski",
         "PRUID": "Que.",
         "date": "2017-06-08",
-        "days_since_record": 1901,
+        "days_since_record": 1987,
         "Temp": 31.5,
         "DLY First Year": 1873.0
     },
@@ -1075,7 +1075,7 @@
         "CMANAME": "Tillsonburg",
         "PRUID": "Ont.",
         "date": "2016-06-11",
-        "days_since_record": 2263,
+        "days_since_record": 2349,
         "Temp": 33.0,
         "DLY First Year": 1962.0
     },
@@ -1084,7 +1084,7 @@
         "CMANAME": "Stratford",
         "PRUID": "Ont.",
         "date": "2016-02-03",
-        "days_since_record": 2392,
+        "days_since_record": 2478,
         "Temp": 14.0,
         "DLY First Year": 1865.0
     },
@@ -1093,7 +1093,7 @@
         "CMANAME": "Salaberry-de-Valleyfield",
         "PRUID": "Que.",
         "date": "2013-10-07",
-        "days_since_record": 3241,
+        "days_since_record": 3327,
         "Temp": 26.5,
         "DLY First Year": 1952.0
     },
@@ -1102,7 +1102,7 @@
         "CMANAME": "Thompson",
         "PRUID": "Man.",
         "date": "2013-06-06",
-        "days_since_record": 3364,
+        "days_since_record": 3450,
         "Temp": 28.5,
         "DLY First Year": 1990.0
     },
@@ -1111,7 +1111,7 @@
         "CMANAME": "Red Deer",
         "PRUID": "Alta.",
         "date": "2013-01-27",
-        "days_since_record": 3494,
+        "days_since_record": 3580,
         "Temp": 12.0,
         "DLY First Year": 1904.0
     },
@@ -1120,7 +1120,7 @@
         "CMANAME": "Elliot Lake",
         "PRUID": "Ont.",
         "date": "2012-03-25",
-        "days_since_record": 3802,
+        "days_since_record": 3888,
         "Temp": 14.0,
         "DLY First Year": 1959.0
     },
@@ -1129,7 +1129,7 @@
         "CMANAME": "Joliette",
         "PRUID": "Que.",
         "date": "2011-02-18",
-        "days_since_record": 4203,
+        "days_since_record": 4289,
         "Temp": 9.0,
         "DLY First Year": 1913.0
     },
@@ -1138,7 +1138,7 @@
         "CMANAME": "Kawartha Lakes",
         "PRUID": "Ont.",
         "date": "2009-03-06",
-        "days_since_record": 4917,
+        "days_since_record": 5003,
         "Temp": 13.0,
         "DLY First Year": 1880.0
     },
@@ -1147,7 +1147,7 @@
         "CMANAME": "Essa",
         "PRUID": "Ont.",
         "date": "2006-12-17",
-        "days_since_record": 5727,
+        "days_since_record": 5813,
         "Temp": 10.0,
         "DLY First Year": 1926.0
     },
@@ -1156,7 +1156,7 @@
         "CMANAME": "New Glasgow",
         "PRUID": "N.S.",
         "date": "2004-05-15",
-        "days_since_record": 6673,
+        "days_since_record": 6759,
         "Temp": 28.0,
         "DLY First Year": 1940.0
     },
@@ -1165,7 +1165,7 @@
         "CMANAME": "Matane",
         "PRUID": "Que.",
         "date": "2004-04-22",
-        "days_since_record": 6696,
+        "days_since_record": 6782,
         "Temp": 14.0,
         "DLY First Year": 1951.0
     },
@@ -1174,7 +1174,7 @@
         "CMANAME": "Strathmore",
         "PRUID": "Alta.",
         "date": "2004-03-30",
-        "days_since_record": 6719,
+        "days_since_record": 6805,
         "Temp": 25.2,
         "DLY First Year": 1912.0
     },
@@ -1183,7 +1183,7 @@
         "CMANAME": "Campbellton",
         "PRUID": "Que.",
         "date": "1999-05-07",
-        "days_since_record": 8508,
+        "days_since_record": 8594,
         "Temp": 26.0,
         "DLY First Year": 1919.0
     },
@@ -1192,7 +1192,7 @@
         "CMANAME": "Lacombe",
         "PRUID": "Alta.",
         "date": "1994-03-30",
-        "days_since_record": 10372,
+        "days_since_record": 10458,
         "Temp": 18.0,
         "DLY First Year": 1907.0
     },
@@ -1201,7 +1201,7 @@
         "CMANAME": "Dolbeau-Mistassini",
         "PRUID": "Que.",
         "date": "1994-02-20",
-        "days_since_record": 10410,
+        "days_since_record": 10496,
         "Temp": 7.0,
         "DLY First Year": 1912.0
     },
@@ -1210,7 +1210,7 @@
         "CMANAME": "Sainte-Agathe-des-Monts",
         "PRUID": "Que.",
         "date": "1992-05-21",
-        "days_since_record": 11050,
+        "days_since_record": 11136,
         "Temp": 28.9,
         "DLY First Year": 1899.0
     },
@@ -1219,7 +1219,7 @@
         "CMANAME": "Port Hope",
         "PRUID": "Ont.",
         "date": "1991-12-12",
-        "days_since_record": 11211,
+        "days_since_record": 11297,
         "Temp": 10.0,
         "DLY First Year": 1882.0
     },
@@ -1228,7 +1228,7 @@
         "CMANAME": "High River",
         "PRUID": "Alta.",
         "date": "1982-03-22",
-        "days_since_record": 14763,
+        "days_since_record": 14849,
         "Temp": 11.0,
         "DLY First Year": 1970.0
     },
@@ -1237,7 +1237,7 @@
         "CMANAME": "Wasaga Beach",
         "PRUID": "Ont.",
         "date": "1981-04-10",
-        "days_since_record": 15109,
+        "days_since_record": 15195,
         "Temp": 19.5,
         "DLY First Year": 1948.0
     },
@@ -1246,7 +1246,7 @@
         "CMANAME": "Portage la Prairie",
         "PRUID": "Man.",
         "date": "1971-03-04",
-        "days_since_record": 18799,
+        "days_since_record": 18885,
         "Temp": 6.1,
         "DLY First Year": 1886.0
     },
@@ -1255,7 +1255,7 @@
         "CMANAME": "Pembroke",
         "PRUID": "Ont.",
         "date": "1968-10-16",
-        "days_since_record": 19668,
+        "days_since_record": 19754,
         "Temp": 28.3,
         "DLY First Year": 1866.0
     },
@@ -1264,7 +1264,7 @@
         "CMANAME": "Camrose",
         "PRUID": "Alta.",
         "date": "1941-05-17",
-        "days_since_record": 29682,
+        "days_since_record": 29768,
         "Temp": 25.0,
         "DLY First Year": 1928.0
     },
@@ -1273,7 +1273,7 @@
         "CMANAME": "Ingersoll",
         "PRUID": "Ont.",
         "date": "1888-11-16",
-        "days_since_record": 48856,
+        "days_since_record": 48942,
         "Temp": 10.0,
         "DLY First Year": 1870.0
     }
