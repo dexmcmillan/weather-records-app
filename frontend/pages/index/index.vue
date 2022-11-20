@@ -14,7 +14,7 @@
 
                 <!-- This block fills in the extra space with blank white cards. -->
                 <div class="bg-white w-1/5 number-box text-center" v-for="numeral in (5 - selectedCity.days_since_record.toString().length)" :key="numeral.id">
-                    <span class="number text-center text-7xl" style="color:#393939">0</span>
+                    <span class="number text-center text-7xl" style="color:#393939; opacity:0.5">0</span>
                 </div>
 
                 <!-- This is the block that fills the white cards with numbers in them. -->

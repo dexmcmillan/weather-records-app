@@ -16,13 +16,6 @@ html {
 .number {
     font-family: axia-stencil, sans-serif; 
     color:#ad1409;
-    line-height:10%;
-    pointer-events:none;
-}
-
-.number {
-    font-family: axia-stencil, sans-serif; 
-    color:#ad1409;
     font-size:60;
     pointer-events:none;
 }
