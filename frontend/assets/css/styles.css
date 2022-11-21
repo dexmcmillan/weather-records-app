@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Digital";
+    src: local("Digital"), url(~/assets/digital-7.ttf);
+}
+
 @layer base {
     h1 {
         @apply text-5xl lg:text-7xl mx-auto font-bold
@@ -9,46 +14,42 @@
 }
 
 html {
-    background-color:#393939;
-    color:white;
-}
-
-.number {
-    font-family: axia-stencil, sans-serif; 
-    color:#ad1409;
-    font-size:60;
-    pointer-events:none;
+    background-color:#a0a0a0;
+    font-size:20pt;
 }
 
 @screen lg {
     .number {
-        font-family: axia-stencil, sans-serif; 
-        color: #ad1409;
-        line-height:100%;
         font-size:230px;
-        pointer-events:none;
     }
 }
 
-.number-box {
-    border: 2px solid;
-    box-shadow: 1px 2px 15px black inset;
-    background: white;
-    line-height:170%;
-}
-
 h1 {
-    font-family: axia-stencil, sans-serif; 
+    font-family: Ariel, sans-serif; 
     /* font-style: italic; */
 }
 
 p {
-    font-family:  trasandina, sans-serif;
+    font-family: Ariel, sans-serif;
     margin-bottom: 15px;
 }
 
 .highlight {
-    font-family: axia-stencil, sans-serif;
+    font-family: "Digital", sans-serif;
     font-weight:bold;
-    color: #fff833;
+    color: #fff833 !important;
+    background-color: black;
+    text-shadow: 0.5px 0.5px 5px #fff833;
+}
+
+#board {
+    background-color:rgb(70, 70, 70);
+    color:white;
+    padding:5px;
+    font-size:20pt;
+}
+
+.bgnumbers {
+    width:13px;
+    margin: 0px 1px 0px 1px;
 }

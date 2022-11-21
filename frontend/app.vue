@@ -2,6 +2,8 @@
   <div id="app" class="p-5 lg:px-24">
     <div class="mx-auto">
 
+      
+
       <!-- A select box that allows the user to choose a city to show. Defaults to Canada. -->
       <!-- Note that province is appended to each item, but it is stripped out later when passed to the page. -->
       <v-select
@@ -51,11 +53,15 @@
         // If the days_since_record property is lower in one or the other, add it to our temps array.
         // Because it's not possible for a hot and cold record to be broken on the same day, we don't need to worry about a scenario where the two equal each other.
         if (cityInMinTempRecords.days_since_record < cityInMaxTempRecords.days_since_record) {
-            temps.push(cityInMinTempRecords)
+            var record = cityInMinTempRecords
         }
         else if (cityInMaxTempRecords.days_since_record < cityInMinTempRecords.days_since_record) {
-            temps.push(cityInMaxTempRecords)
+            var record = cityInMaxTempRecords
         }
+
+        record['CMANAME'] = record["CMANAME"].replace(/\(.*\)/, "")
+
+        temps.push(record)
 
     }
 
