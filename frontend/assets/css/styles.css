@@ -14,19 +14,9 @@
 }
 
 html {
-    background-color:#a0a0a0;
+    background-color:#2e2e2e;
+    color:white;
     font-size:20pt;
-}
-
-@screen lg {
-    .number {
-        font-size:230px;
-    }
-}
-
-h1 {
-    font-family: Ariel, sans-serif; 
-    /* font-style: italic; */
 }
 
 p {
@@ -34,22 +24,9 @@ p {
     margin-bottom: 15px;
 }
 
-.highlight {
-    font-family: "Digital", sans-serif;
+.header {
+    font-size:40px;
+    color:#d98d00;
+    border-bottom: 4px solid #d98d00;
     font-weight:bold;
-    color: #fff833 !important;
-    background-color: black;
-    text-shadow: 0.5px 0.5px 5px #fff833;
-}
-
-#board {
-    background-color:rgb(70, 70, 70);
-    color:white;
-    padding:5px;
-    font-size:20pt;
-}
-
-.bgnumbers {
-    width:13px;
-    margin: 0px 1px 0px 1px;
 }
