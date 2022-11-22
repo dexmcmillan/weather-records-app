@@ -194,7 +194,7 @@ class WeatherData:
     
     def rankAllCities(self, metric="Max Temp (°C)", date=None):
         
-        save_file_name = f"data/{metric}.json"
+        save_file_name = f"data/{self.yesterday.date()}-{metric}.json"
         
         if date == None:
             date = self.yesterday

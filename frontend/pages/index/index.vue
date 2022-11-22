@@ -1,43 +1,28 @@
 <template>
-    <div>
-        <div class="col-span-1 mx-auto h-full mb-5">
-
-            <!-- The title, which is updated depending on which city the user selects. -->
-            <div>
-                <div class="highlight w-fit"><h1>{{ cityToShow.toUpperCase() }}{{ cityToShow == 'Canada' ? "" : `, ${selectedCity.PRUID.toUpperCase()}` }}</h1>
-                </div>
-                <h1>HAS GONE</h1>
+    <div id="card" class="grid gap-2 mx-auto w-full">
+        <span class="text-right border-2 p-1 w-fit highlight px-1">
+            <div v-for="letter in `${selectedCity.CMANAME},${selectedCity.PRUID}`" :key="letter.id" class="bgnumbers relative float-left">
+                <span class="absolute top-0 left-0 float-left" style="opacity:0.3">8</span><span class="float-left">
+                    <span v-if="letter != ' '"> {{ letter }}</span>
+                    <span v-else class="float-left" style="opacity:0.0">8</span>
+                </span>
             </div>
-
-            <!-- This is the "scoreboard-style" number counter. -->
-            <div class="flex justify-center gap-1 lg:gap-5 mx-auto my-5">
-
-                <!-- This block fills in the extra space with blank white cards. -->
-                <div class="bg-white w-1/5 number-box text-center" v-for="numeral in (5 - selectedCity.days_since_record.toString().length)" :key="numeral.id">
-                    <span class="number text-center text-7xl" style="color:#393939; opacity:0.5">0</span>
-                </div>
-
-                <!-- This is the block that fills the white cards with numbers in them. -->
-                <div class="bg-white w-1/5 number-box text-center" v-for="numeral in selectedCity.days_since_record.toString()" :key="numeral.id">
-                    <span class="number text-center text-7xl"><transition>{{ numeral }}</transition></span>
-                </div>
-
-                <!-- This block renders on mobile only, where the card view doesn't work so well. -->
-                <!-- <div class="visible lg:hidden text-xl mx-auto">
-                    <span class="number-small text-center">{{ selectedCity.days_since_record.toLocaleString() }}</span>
-                </div> -->
-
+            <!-- <div v-for="numeral in 31 - (selectedCity.CMANAME.length + selectedCity.PRUID.length)" :key="numeral.id" class="bgnumbers relative float-left">
+                <span class="float-left" style="opacity:0.3">8</span>
+            </div> -->
+        </span>has gone
+        <div class="text-right border-2 p-1 w-fit highlight px-1 inline">
+            <div v-for="number in selectedCity.days_since_record.toString()" :key="number.id" class="bgnumbers relative float-left">
+                <span class="absolute top-0 left-0 float-left" style="opacity:0.3">8</span><span class="float-left">
+                    <span v-if="number != ' '"> {{ number }}</span>
+                    <span v-else class="float-left" style="opacity:0.0">8</span>
+                </span>
             </div>
-            <div>
-                <h1>DAYS WITHOUT BREAKING A DAILY CLIMATE RECORD</h1>
+            <div v-for="numeral in (8 - selectedCity.days_since_record.toString().length)" :key="numeral.id" class="bgnumbers relative float-left">
+                <span class="float-left" style="opacity:0.3">8</span>
             </div>
         </div>
-        
-        <!-- This fills in some more information about the city the user has selected (the date the record was broken, plus the temperature on that date.). -->
-        <div>
-            <p class="text-md lg:text-2xl mb-10"><b>{{ $date(selectedCity.date) }}</b> was the {{ selectedCity.type == 'max' ? "hottest" : 'coldest' }} {{ $date(selectedCity.date).replace(/,\s[0-9]{4}/, "") }} on record {{ cityToShow == "Canada" ? 'in ' : ''}}<span class="highlight">{{ cityToShow == "Canada" ? `${selectedCity.CMANAME.toUpperCase()}, ${selectedCity.PRUID.toUpperCase()}, ` : "" }}</span> with a temperature of <b>{{ selectedCity.Temp }}°C</b>.
-            </p>
-        </div>
+        <div class="text-left p-1 w-fit"> without breaking a daily climate record.</div>
     </div>
 </template>
 
@@ -45,6 +30,8 @@
 
     // Define page props.
     const props = defineProps({cityToShow: String, temps: Array})
+
+    props.temps = props.temps.map(x => x["days_since_record"] = x["days_since_record"] + " DAYS")
 
     // This function controls the response when the user chooses a new city from the dropdown box.
     const selectedCity = computed(() => {

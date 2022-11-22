@@ -1,24 +1,22 @@
 <template>
-  <div id="app" class="p-5 lg:px-24">
-    <div class="mx-auto">
+  <div id="app" class="w-3/4 mx-auto pt-10">
+    
+    <div class="grid grid-cols-3 header">
+      <div class="align-self-end">
+        CLIMATE RECORDS
+      </div>
+      
 
-      <!-- A select box that allows the user to choose a city to show. Defaults to Canada. -->
-      <!-- Note that province is appended to each item, but it is stripped out later when passed to the page. -->
-      <v-select
-        :items="temps.map(i => `${i.CMANAME}, ${i.PRUID}`).concat(['Canada']).sort()"
-        v-model="cityToShow"
-        label="city/town"
-        single-line
-        dense
-        outlined
-        class="w-60"
-        >
-      </v-select>
-
+      <v-form class="col-span-1 col-start-3">
+              <v-text-field
+              v-model="city_search"
+              label="Find your city"
+              bg-color="#2e2e2e"
+              ></v-text-field>
+      </v-form>
     </div>
-
-    <!-- The sign card itself. -->
-    <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" />
+    
+    <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" :city_search="city_search" />
 
     <!-- Methodology box. -->
     <div class="text-sm">
@@ -30,8 +28,8 @@
 <script setup>
     
     // Import data json files from the assets folder.
-    import maxTempRecords from '~/assets/data/Max Temp (°C).json';
-    import minTempRecords from '~/assets/data/Min Temp (°C).json';
+    import maxTempRecords from '~~/assets/data/Max Temp (°C).json';
+    import minTempRecords from '~~/assets/data/Min Temp (°C).json';
 
     // Now, we need one array, with one entry for each city, depending on if the last record broken was a low or high.
     // Start by creating a new temp array.
@@ -51,11 +49,15 @@
         // If the days_since_record property is lower in one or the other, add it to our temps array.
         // Because it's not possible for a hot and cold record to be broken on the same day, we don't need to worry about a scenario where the two equal each other.
         if (cityInMinTempRecords.days_since_record < cityInMaxTempRecords.days_since_record) {
-            temps.push(cityInMinTempRecords)
+            var record = cityInMinTempRecords
         }
         else if (cityInMaxTempRecords.days_since_record < cityInMinTempRecords.days_since_record) {
-            temps.push(cityInMaxTempRecords)
+            var record = cityInMaxTempRecords
         }
+
+        record['CMANAME'] = record["CMANAME"].replace(/ \(.*\)/, "")
+
+        temps.push(record)
 
     }
 
@@ -66,15 +68,16 @@
 
 <script>
 
-export default defineComponent({
-  data() {
-    return {
-      // Default city to show.
-      cityToShow: "Canada",
-      // For some reason, our dates are getting set back one day when we use our date plugin (not sure why!)
-      // To fix it, we added one to the date in the date plugin. That means here, we need to minus 2 instead of one.
-      yesterday: (new Date()).setDate((new Date()).getDate() - 2),
-    }
-  },
-})
+  export default defineComponent({
+    data() {
+      return {
+        // Default city to show.
+        cityToShow: "Canada",
+        // For some reason, our dates are getting set back one day when we use our date plugin (not sure why!)
+        // To fix it, we added one to the date in the date plugin. That means here, we need to minus 2 instead of one.
+        yesterday: (new Date()).setDate((new Date()).getDate() - 2),
+        city_search: ""
+      }
+    },
+  })
 </script>
