@@ -19,7 +19,7 @@
         <div id="board" class="w-fit mx-auto">
             <div v-for="city in filtered_cities" :key="city.id" class="flex gap-3 mb-5">
                 <digital-screen :string-to-display="`${city.CMANAME},${city.PRUID}`" :character-length=32 :city-data="city" />
-                <digital-screen @mouseover="flipped = true" @mouseleave="flipped = false" :string-to-display="city.days_since_record.toString()" :character-length=9 :city-data="city" />
+                <digital-screen :string-to-display="city.days_since_record.toString()" :character-length=9 :city-data="city" />
             </div>
         </div>
         <div class="header"></div>

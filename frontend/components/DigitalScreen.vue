@@ -1,5 +1,5 @@
 <template>
-    <div id="outerBox" class="p-1 w-fit px-1 block inline-block rounded-sm" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
+    <div id="outerBox" class="p-2 w-fit px-1 block inline-block rounded-sm" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
         <div v-for="letter in stringToDisplay" :key="letter.id" class="bgnumbers relative float-left h-fit">
             <span class="absolute top-0 left-0 float-left">
                 <span v-if="letter != ' '">{{ letter }}</span>
@@ -22,6 +22,7 @@
     })
 
 </script>
+
 
 <style scoped>
 * {
