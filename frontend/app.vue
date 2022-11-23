@@ -28,8 +28,8 @@
 <script setup>
     
     // Import data json files from the assets folder.
-    import maxTempRecords from '~~/assets/data/Max Temp (°C).json';
-    import minTempRecords from '~~/assets/data/Min Temp (°C).json';
+    import maxTempRecords from '~~/assets/data/max.json';
+    import minTempRecords from '~~/assets/data/min.json';
 
     // Now, we need one array, with one entry for each city, depending on if the last record broken was a low or high.
     // Start by creating a new temp array.
