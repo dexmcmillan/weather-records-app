@@ -42,10 +42,8 @@ class WeatherData:
         logging.info(f"Loading in previous weather data...")
         
         # Load in data that's already been collected.
-        if metric == "max":
-            self.data = pd.read_csv("data/raw_data-max.csv", low_memory=False)
-        elif metric == "min":
-            self.data = pd.read_csv("data/raw_data-min.csv", low_memory=False)
+        if metric == "max": self.data = pd.read_csv("data/raw_data-max.csv", low_memory=False)
+        elif metric == "min": self.data = pd.read_csv("data/raw_data-min.csv", low_memory=False)
         
         # Here, we drop any extraneous columns that may have been created by accident by setting/resetting columns on previous saves.
         self.data = (self.data
@@ -125,36 +123,37 @@ class WeatherData:
         # For more info on how each station was located in city boundaries, see methodology/spatial_join.ipynb.
         
         # The value we pivot on will depend on our input metric, so we set that depending on that parameter.
-        if self.metric == "max":
-            value = "Max Temp (°C)"
-        elif self.metric == "min":
-            value = "Min Temp (°C)"
+        if self.metric == "max": value = "Max Temp (°C)"
+        elif self.metric == "min": value = "Min Temp (°C)"
         
-        for metric in ["max", "min"]:
-            # Now we join station data, then pivot to get max values for each day, then melt back into a format we want to save in (and that we can use to join onto our historical data)
-            new_data = (new_data
-                        .join(self.climateStationMetadata)
-                        .pivot_table(columns="Year", values=value, index=["CMANAME", "Month", "Day"], aggfunc=metric)
-                        .reset_index()
-                        .melt(id_vars=["CMANAME", "Month", "Day"])
-                        .dropna()
-                        )
-        
-            # Now we concat the new data onto the old stuff, and drop any duplicates we might have.
-            self.data = pd.concat([self.data, new_data], axis=0).drop_duplicates()
-        
-            # Now we save our data.
-            # We also drop any extra columns that might have been created by index manipulation (setting/resetting.)
-            try:
-                logging.info("Saving new data...")
-                (self.data
-                .drop(columns=list(self.data.filter(regex='level')))
-                .drop(columns=list(self.data.filter(regex='index')))
-                .drop(columns=list(self.data.filter(regex='Unnamed')))
-                .to_csv("data/raw_data-{metric}.csv")
-                )
-                
-            except: logging.error("Error saving new data.")
+        # Now we join station data, then pivot to get max values for each day, then melt back into a format we want to save in (and that we can use to join onto our historical data)
+        updatedDataForThisMetric = (new_data
+                                    .join(self.climateStationMetadata, rsuffix="_")
+                                    .pivot_table(columns="Year", values=value, index=["CMANAME", "Month", "Day"], aggfunc=self.metric)
+                                    .reset_index()
+                                    .melt(id_vars=["CMANAME", "Month", "Day"])
+                                    .dropna()
+                                    )
+    
+        # Now we concat the new data onto the old stuff, and drop any duplicates we might have.
+        updatedDataForThisMetric = pd.concat([self.data, updatedDataForThisMetric], axis=0).drop_duplicates()
+    
+        # Now we save our data.
+        # We also drop any extra columns that might have been created by index manipulation (setting/resetting.)
+        try:
+            logging.info(f"Saving new data for {self.metric} values...")
+            (updatedDataForThisMetric
+            .drop(columns=list(updatedDataForThisMetric.filter(regex='level')))
+            .drop(columns=list(updatedDataForThisMetric.filter(regex='index')))
+            .drop(columns=list(updatedDataForThisMetric.filter(regex='Unnamed')))
+            .drop(columns=["date"])
+            .drop_duplicates(subset=["CMANAME", "Month", "Day", "Year"])
+            .to_csv(f"data/raw_data-{self.metric}.csv")
+            )
+            
+        except: logging.error("Error saving new data.")
+            
+        self.data = pd.read_csv(f"data/raw_data-{self.metric}.csv", low_memory=False)
         
         return self.data
     
@@ -344,8 +343,20 @@ class WeatherData:
         # Get a dataframe with province info for each city, so we can join it on before export.
         provinceInfo = self.climateStationMetadata.drop_duplicates(subset="CMANAME").set_index("CMANAME")[["PRUID"]]
         
+        daysSinceMaximumRecord["CMANAME"] = (daysSinceMaximumRecord["CMANAME"]
+                                             .str.replace("Greater Sudbury / Grand Sudbury", "Sudbury", regex=False)
+                                             .str.replace(" \(.*\)", "", regex=True)
+                                             .str.replace("Î", "I", regex=True)
+                                             .str.replace("é|è", "e", regex=True)
+                                             )
+        
         # Join province info onto our data.
-        daysSinceMaximumRecord = daysSinceMaximumRecord.set_index("CMANAME").join(provinceInfo, how="left").reset_index()
+        daysSinceMaximumRecord = (daysSinceMaximumRecord
+                                  .set_index("CMANAME")
+                                  .join(provinceInfo, how="left")
+                                  .reset_index()
+                                  .sort_values("days_since_record")
+                                  )
         
         # Export to json. This file will be the one used in the front end display.
         daysSinceMaximumRecord.to_json(save_file_name, orient='records')

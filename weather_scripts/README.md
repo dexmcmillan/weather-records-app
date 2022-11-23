@@ -1,3 +1,3 @@
 # Weather records app
 
-This
+This is the backend data methodology behind the Daily Climate Records app, made by Dexter McMillan.

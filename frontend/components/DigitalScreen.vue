@@ -37,7 +37,7 @@
     font-family: "Digital", sans-serif;
     background-color: black !important;
     line-height:80%;
-    /* box-shadow: inset 1px 1px 5px 0 white; */
+    box-shadow: inset -0.5px -0.5px 15px 0px white;
 }
 
 .yellow {
