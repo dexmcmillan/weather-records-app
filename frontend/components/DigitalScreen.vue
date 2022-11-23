@@ -1,5 +1,5 @@
 <template>
-    <div id="outerBox" class="p-2 w-fit px-1 block inline-block rounded-sm" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
+    <div id="outerBox" class="p-2 px-1 w-fit rounded-sm inline-block" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
         <div v-for="letter in stringToDisplay" :key="letter.id" class="bgnumbers relative float-left h-fit">
             <span class="absolute top-0 left-0 float-left">
                 <span v-if="letter != ' '">{{ letter }}</span>
@@ -24,6 +24,7 @@
 </script>
 
 
+
 <style scoped>
 * {
     font-size:inherit;
@@ -38,6 +39,13 @@
     background-color: black !important;
     line-height:80%;
     box-shadow: inset -0.5px -0.5px 15px 0px white;
+    cursor:pointer;
+    overflow:hidden !important;
+}
+
+#outerBox div {
+    white-space: nowrap !important;
+    overflow: hidden !important;
 }
 
 .yellow {
@@ -52,5 +60,15 @@
 
 * {
     text-align: left !important;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

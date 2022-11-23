@@ -42,8 +42,7 @@ class WeatherData:
         logging.info(f"Loading in previous weather data...")
         
         # Load in data that's already been collected.
-        if metric == "max": self.data = pd.read_csv("data/raw_data-max.csv", low_memory=False)
-        elif metric == "min": self.data = pd.read_csv("data/raw_data-min.csv", low_memory=False)
+        self.data = pd.read_csv(f"data/raw_data-{self.metric}.csv", low_memory=False)
         
         # Here, we drop any extraneous columns that may have been created by accident by setting/resetting columns on previous saves.
         self.data = (self.data
@@ -143,12 +142,12 @@ class WeatherData:
         try:
             logging.info(f"Saving new data for {self.metric} values...")
             (updatedDataForThisMetric
-            .drop(columns=list(updatedDataForThisMetric.filter(regex='level')))
-            .drop(columns=list(updatedDataForThisMetric.filter(regex='index')))
-            .drop(columns=list(updatedDataForThisMetric.filter(regex='Unnamed')))
-            .drop(columns=["date"])
-            .drop_duplicates(subset=["CMANAME", "Month", "Day", "Year"])
-            .to_csv(f"data/raw_data-{self.metric}.csv")
+                .drop(columns=list(updatedDataForThisMetric.filter(regex='level')))
+                .drop(columns=list(updatedDataForThisMetric.filter(regex='index')))
+                .drop(columns=list(updatedDataForThisMetric.filter(regex='Unnamed')))
+                .drop(columns=["date"])
+                .drop_duplicates(subset=["CMANAME", "Month", "Day", "Year"])
+                .to_csv(f"data/raw_data-{self.metric}.csv")
             )
             
         except: logging.error("Error saving new data.")
@@ -343,13 +342,6 @@ class WeatherData:
         # Get a dataframe with province info for each city, so we can join it on before export.
         provinceInfo = self.climateStationMetadata.drop_duplicates(subset="CMANAME").set_index("CMANAME")[["PRUID"]]
         
-        daysSinceMaximumRecord["CMANAME"] = (daysSinceMaximumRecord["CMANAME"]
-                                             .str.replace("Greater Sudbury / Grand Sudbury", "Sudbury", regex=False)
-                                             .str.replace(" \(.*\)", "", regex=True)
-                                             .str.replace("Î", "I", regex=True)
-                                             .str.replace("é|è", "e", regex=True)
-                                             )
-        
         # Join province info onto our data.
         daysSinceMaximumRecord = (daysSinceMaximumRecord
                                   .set_index("CMANAME")
@@ -357,6 +349,15 @@ class WeatherData:
                                   .reset_index()
                                   .sort_values("days_since_record")
                                   )
+        
+        
+        daysSinceMaximumRecord["CMANAME"] = (daysSinceMaximumRecord["CMANAME"]
+                                             .str.replace("Greater Sudbury / Grand Sudbury", "Sudbury", regex=False)
+                                             .str.replace("Kitchener - Cambridge - Waterloo", "Kitchener", regex=False)
+                                             .str.replace(" \(.*\)", "", regex=True)
+                                             .str.replace("Î", "I", regex=True)
+                                             .str.replace("é|è", "e", regex=True)
+                                             )
         
         # Export to json. This file will be the one used in the front end display.
         daysSinceMaximumRecord.to_json(save_file_name, orient='records')
