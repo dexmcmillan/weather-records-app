@@ -11,6 +11,9 @@
     h1 {
         @apply text-5xl lg:text-7xl mx-auto font-bold
     }
+    .header {
+        @apply my-5 p-2
+    }
 }
 
 html {

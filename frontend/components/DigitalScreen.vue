@@ -1,6 +1,6 @@
 <template>
-    <div id="outerBox" class="p-2 px-1 w-fit rounded-sm inline-block" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
-        <div v-for="letter in stringToDisplay" :key="letter.id" class="bgnumbers relative float-left h-fit">
+    <div id="outerBox" class="p-2 rounded-md inline-block" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
+        <!-- <div v-for="letter in stringToDisplay" :key="letter.id" class="bgnumbers relative float-left h-fit">
             <span class="absolute top-0 left-0 float-left">
                 <span v-if="letter != ' '">{{ letter }}</span>
                 <span v-else style="opacity:0.0; color:white !important">8</span>
@@ -9,7 +9,8 @@
         </div>
         <div v-for="numeral in (characterLength - stringToDisplay.length)" :key="numeral.id" class="bgnumbers float-left h-fit">
             <span style="opacity:0.1">8</span>
-        </div>
+        </div> -->
+        {{ stringToDisplay.toUpperCase() }}
     </div>
 </template>
 
@@ -35,10 +36,13 @@
 }
 
 #outerBox {
-    font-family: "Digital", sans-serif;
+    /* font-family: bitcount-prop-double-circle, sans-serif;  */
+    font-family: Digital, sans-serif;
+    letter-spacing:5px;
+    font-weight: 400;
     background-color: black !important;
     line-height:80%;
-    box-shadow: inset -0.5px -0.5px 15px 0px white;
+    box-shadow: inset 0px 0px 1px 1px #9b9b9b;
     cursor:pointer;
     overflow:hidden !important;
 }
@@ -50,25 +54,15 @@
 
 .yellow {
     color:#d98d00;
-    /* text-shadow: 0.5px 0.5px 5px #d98d00; */
+    text-shadow: 0.5px 0.5px 5px #d98d00;
 }
 
 .white {
     color:white;
-    /* text-shadow: 0.5px 0.5px 5px white; */
+    text-shadow: 1px 1px 15px white;
 }
 
 * {
     text-align: left !important;
-}
-
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
 }
 </style>

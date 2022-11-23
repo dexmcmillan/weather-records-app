@@ -2,18 +2,20 @@
   <div id="app" class="w-3/4 mx-auto pt-10">
     
     <div class="grid grid-cols-3 header">
-      <div class="align-self-end">
-        CLIMATE RECORDS
+      <div class="align-self-end col-span-2">
+        <v-icon style="font-size:110%; position:relative; top:-4px">mdi-arrow-top-right-bold-box</v-icon>Climate Records
       </div>
-      
-
-      <v-form class="col-span-1 col-start-3">
-              <v-text-field
-              v-model="city_search"
-              label="Find your city"
-              bg-color="#2e2e2e"
-              ></v-text-field>
+      <v-form class="col-span-1">
+        <v-text-field style="color:white"
+        v-model="city_search"
+        placeholder="Find Your City"
+        hide-details=true
+        variant="underlined"
+        density="compact"
+        prepend-inner-icon="mdi-arrow-top-left-thin-circle-outline"
+        ></v-text-field>
       </v-form>
+        
     </div>
     
     <NuxtPage :cityToShow="cityToShow.split(', ')[0]" :temps="temps" :city_search="city_search" />
