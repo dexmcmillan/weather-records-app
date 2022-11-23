@@ -1,16 +1,6 @@
 <template>
     <div id="outerBox" class="p-2 rounded-md inline-block" :class="{yellow: cityData.type == 'max', white: cityData.type == 'min'}">
-        <!-- <div v-for="letter in stringToDisplay" :key="letter.id" class="bgnumbers relative float-left h-fit">
-            <span class="absolute top-0 left-0 float-left">
-                <span v-if="letter != ' '">{{ letter }}</span>
-                <span v-else style="opacity:0.0; color:white !important">8</span>
-            </span>
-            <span style="opacity:0.1; pointer-events:none">8</span>
-        </div>
-        <div v-for="numeral in (characterLength - stringToDisplay.length)" :key="numeral.id" class="bgnumbers float-left h-fit">
-            <span style="opacity:0.1">8</span>
-        </div> -->
-        {{ stringToDisplay.toUpperCase() }}
+        {{ stringToDisplay }}
     </div>
 </template>
 
@@ -18,7 +8,6 @@
 
     const props = defineProps({
         stringToDisplay: String,
-        characterLength: Number,
         cityData: Object
     })
 
@@ -31,10 +20,6 @@
     font-size:inherit;
 }
 
-.bgnumbers {
-    margin: 0px 2px 0px 2px;
-}
-
 #outerBox {
     /* font-family: bitcount-prop-double-circle, sans-serif;  */
     font-family: Digital, sans-serif;
@@ -45,11 +30,6 @@
     box-shadow: inset 0px 0px 1px 1px #9b9b9b;
     cursor:pointer;
     overflow:hidden !important;
-}
-
-#outerBox div {
-    white-space: nowrap !important;
-    overflow: hidden !important;
 }
 
 .yellow {
