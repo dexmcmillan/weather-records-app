@@ -16,9 +16,6 @@
 
 
 <style scoped>
-* {
-    font-size:inherit;
-}
 
 #outerBox {
     /* font-family: bitcount-prop-double-circle, sans-serif;  */
@@ -30,6 +27,13 @@
     box-shadow: inset 0px 0px 1px 1px #9b9b9b;
     cursor:pointer;
     overflow:hidden !important;
+    font-size:30px;
+}
+
+@screen lg {
+    #outerBox {
+        font-size:60px;
+    }
 }
 
 .yellow {
