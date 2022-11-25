@@ -9,8 +9,6 @@ dist
 
 data-historical-both.csv
 
-
-
 __pycache__
 .pytest_cache
 
