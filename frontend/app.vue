@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="w-full lg:w-4/5 mx-auto p-5">
+  <div id="app" class="w-full lg:w-3/4 mx-auto p-5">
 
     <div class="grid grid-cols-3 header">
 
-      <div class="align-self-end col-span-2">
+      <div class="align-self-end col-span-2 relative -left-3">
         <v-icon style="font-size:110%; position:relative; top:-4px">mdi-arrow-top-right-bold-box</v-icon>Climate Records
       </div>
 
@@ -22,9 +22,9 @@
 
     <div class="mx-auto topCard my-5">
         <h1 class="mx-auto">
-            <digital-screen class="relative top-2" :string-to-display="'Canada'" :city-data="temps[0]" />
+            <digital-screen class="relative top-3" :string-to-display="'Canada'" :city-data="temps[0]" />
             HAS GONE 
-            <digital-screen class="relative top-2" :string-to-display="`${temps[0].days_since_record} DAYS`" :city-data="temps[0]" /> 
+            <digital-screen class="relative top-3" :string-to-display="`${temps[0].days_since_record} DAYS`" :city-data="temps[0]" /> 
             WITHOUT A CITY BREAKING A DAILY CLIMATE RECORD
         </h1>
     </div>
@@ -33,6 +33,7 @@
 
     <div id="methodology">
         <p>How long has your city gone without breaking a climate record? We located all the weather stations within the boundaries of every Census Metropolitan Area (CMA) and Census Agglomeration (CA) in Canada. Every day, we take the previous day's data from Environment and Climate Change Canada and compare it to the same date for that weather station to see if this year was the hottest or coldest day on record for that date. The values here show how many days it's been since a record has been broken.</p>
+        <p>Click on the board to see more details about the record.</p>
         <p><b>Last update</b>: {{ $date(today) }}</p>
     </div>
 
@@ -45,7 +46,7 @@
 
         <div v-for="city in filtered_cities" :key="city.id" class="grid grid-cols-3 col-span-3 gap-3 mb-3">
 
-            <digital-screen class="col-span-2 w-full" @click="flipped = !flipped" :string-to-display="!flipped ? `${city.CMANAME}, ${city.PRUID}` : `${city.type} TEMP RECORD`" :city-data="city" />
+            <digital-screen class="col-span-2 w-full relative" @click="flipped = !flipped" :string-to-display="!flipped ? `${city.CMANAME}, ${city.PRUID}` : `${city.type} TEMP RECORD`" :city-data="city" />
 
             <digital-screen class="col-span-1" @click="flipped = !flipped" :string-to-display="!flipped ? `${city.days_since_record} DAYS` : city.Temp + '°C'" :city-data="city" />
 
@@ -123,7 +124,7 @@ h1 {
     line-height:130%;
     color:white;
     font-family: Ariel, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .header {
@@ -134,23 +135,29 @@ h1 {
 }
 
 
+#methodology {
+  font-size: 15px;
+}
+
+#board {
+    font-size:20pt;
+}
+
+
 @screen lg {
     .header {
       font-size:40px;
     }
     h1 {
-      font-size: 60px;
+      font-size: 70px;
     }
+    #methodology {
+      font-size:20px;
+    }
+    #board {
+      font-size:40pt;
   }
-
-#board {
-    font-size:40pt;
-}
-
-
-#methodology {
-  font-size: 20px;
-}
+  }
 
 
 </style>
