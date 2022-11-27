@@ -346,10 +346,15 @@ class WeatherData:
         daysSinceMaximumRecord = (daysSinceMaximumRecord
                                   .set_index("CMANAME")
                                   .join(provinceInfo, how="left")
-                                  .reset_index()
                                   .sort_values("days_since_record")
                                   )
         
+        cityLocations = pd.read_csv("./methodology/cma_points.csv", index_col="CMANAME")
+        
+        daysSinceMaximumRecord = (daysSinceMaximumRecord
+                                  .join(cityLocations)
+                                  .reset_index()
+                                  )
         
         daysSinceMaximumRecord["CMANAME"] = (daysSinceMaximumRecord["CMANAME"]
                                              .str.replace("Greater Sudbury / Grand Sudbury", "Sudbury", regex=False)

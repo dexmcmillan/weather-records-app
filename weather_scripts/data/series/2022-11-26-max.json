@@ -1,0 +1,1091 @@
+[
+    {
+        "CMANAME": "Petawawa",
+        "Temp": 13.4,
+        "date": "2022-11-26",
+        "days_since_record": 0,
+        "PRUID": "ON",
+        "Latitude": -77.3100441034,
+        "Longitude": 45.8942029334
+    },
+    {
+        "CMANAME": "Lloydminster",
+        "Temp": 5.4,
+        "date": "2022-11-25",
+        "days_since_record": 1,
+        "PRUID": "AB",
+        "Latitude": -110.0349641874,
+        "Longitude": 53.2807427948
+    },
+    {
+        "CMANAME": "Kenora",
+        "Temp": 7.5,
+        "date": "2022-11-24",
+        "days_since_record": 2,
+        "PRUID": "ON",
+        "Latitude": -94.4399400678,
+        "Longitude": 49.8219637311
+    },
+    {
+        "CMANAME": "Val-d'Or",
+        "Temp": 21.4,
+        "date": "2022-11-24",
+        "days_since_record": 2,
+        "PRUID": "QC",
+        "Latitude": -77.6712925563,
+        "Longitude": 47.979228264
+    },
+    {
+        "CMANAME": "Truro",
+        "Temp": 19.2,
+        "date": "2022-11-12",
+        "days_since_record": 14,
+        "PRUID": "NS",
+        "Latitude": -63.1942209343,
+        "Longitude": 45.3914470455
+    },
+    {
+        "CMANAME": "Summerside",
+        "Temp": 17.8,
+        "date": "2022-11-12",
+        "days_since_record": 14,
+        "PRUID": "PEI",
+        "Latitude": -63.8521312278,
+        "Longitude": 46.4431053389
+    },
+    {
+        "CMANAME": "Kentville",
+        "Temp": 20.6,
+        "date": "2022-11-12",
+        "days_since_record": 14,
+        "PRUID": "NS",
+        "Latitude": -64.4890647578,
+        "Longitude": 45.0823973477
+    },
+    {
+        "CMANAME": "Moncton",
+        "Temp": 20.0,
+        "date": "2022-11-12",
+        "days_since_record": 14,
+        "PRUID": "NB",
+        "Latitude": -64.8581015746,
+        "Longitude": 46.0147965172
+    },
+    {
+        "CMANAME": "Charlottetown",
+        "Temp": 17.9,
+        "date": "2022-11-12",
+        "days_since_record": 14,
+        "PRUID": "PEI",
+        "Latitude": -63.1380670804,
+        "Longitude": 46.3191355482
+    },
+    {
+        "CMANAME": "Halifax",
+        "Temp": 19.7,
+        "date": "2022-11-11",
+        "days_since_record": 15,
+        "PRUID": "NS",
+        "Latitude": -63.2791665721,
+        "Longitude": 44.9214728379
+    },
+    {
+        "CMANAME": "Saint John",
+        "Temp": 18.0,
+        "date": "2022-11-11",
+        "days_since_record": 15,
+        "PRUID": "NB",
+        "Latitude": -66.0102950957,
+        "Longitude": 45.4039493396
+    },
+    {
+        "CMANAME": "Sault Ste. Marie",
+        "Temp": 20.0,
+        "date": "2022-11-10",
+        "days_since_record": 16,
+        "PRUID": "ON",
+        "Latitude": -84.1699681916,
+        "Longitude": 46.5269160208
+    },
+    {
+        "CMANAME": "Bathurst",
+        "Temp": 20.0,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NB",
+        "Latitude": -65.8063373784,
+        "Longitude": 47.5434730436
+    },
+    {
+        "CMANAME": "Cape Breton",
+        "Temp": 19.8,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NS",
+        "Latitude": -60.2625837921,
+        "Longitude": 46.009864462
+    },
+    {
+        "CMANAME": "Miramichi",
+        "Temp": 19.7,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NB",
+        "Latitude": -66.1406828217,
+        "Longitude": 47.111794589
+    },
+    {
+        "CMANAME": "Baie-Comeau",
+        "Temp": 14.9,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "QC",
+        "Latitude": -68.3275710666,
+        "Longitude": 49.2030265493
+    },
+    {
+        "CMANAME": "Edmundston",
+        "Temp": 17.6,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NB",
+        "Latitude": -68.1732350015,
+        "Longitude": 47.51156235
+    },
+    {
+        "CMANAME": "Fredericton",
+        "Temp": 21.2,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NB",
+        "Latitude": -66.779434091,
+        "Longitude": 46.0147514208
+    },
+    {
+        "CMANAME": "Gander",
+        "Temp": 18.4,
+        "date": "2022-11-07",
+        "days_since_record": 19,
+        "PRUID": "NL",
+        "Latitude": -54.8957305838,
+        "Longitude": 48.7750550182
+    },
+    {
+        "CMANAME": "Saguenay",
+        "Temp": 23.7,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -71.0082682346,
+        "Longitude": 48.4194527405
+    },
+    {
+        "CMANAME": "Quebec",
+        "Temp": 20.8,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -71.3418999254,
+        "Longitude": 46.9126320404
+    },
+    {
+        "CMANAME": "Shawinigan",
+        "Temp": 19.2,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -72.8814652467,
+        "Longitude": 46.7117770834
+    },
+    {
+        "CMANAME": "Trois-Rivieres",
+        "Temp": 20.1,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -72.5022603737,
+        "Longitude": 46.3602461608
+    },
+    {
+        "CMANAME": "Riviere-du-Loup",
+        "Temp": 20.9,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -69.4432813292,
+        "Longitude": 47.8082780506
+    },
+    {
+        "CMANAME": "Centre Wellington",
+        "Temp": 22.5,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "ON",
+        "Latitude": -80.3865578252,
+        "Longitude": 43.7160701518
+    },
+    {
+        "CMANAME": "Ottawa - Gatineau",
+        "Temp": 22.1,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -75.7374547237,
+        "Longitude": 45.682878563
+    },
+    {
+        "CMANAME": "Alma",
+        "Temp": 20.8,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "QC",
+        "Latitude": -71.6824035021,
+        "Longitude": 48.5920616677
+    },
+    {
+        "CMANAME": "Brockville",
+        "Temp": 21.8,
+        "date": "2022-11-06",
+        "days_since_record": 20,
+        "PRUID": "ON",
+        "Latitude": -75.8614020158,
+        "Longitude": 44.698618696
+    },
+    {
+        "CMANAME": "Belleville - Quinte West",
+        "Temp": 23.3,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -77.4555333704,
+        "Longitude": 44.2595686159
+    },
+    {
+        "CMANAME": "Collingwood",
+        "Temp": 24.6,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -80.2357406212,
+        "Longitude": 44.4981231329
+    },
+    {
+        "CMANAME": "Cornwall",
+        "Temp": 25.0,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -74.9148691586,
+        "Longitude": 45.070538853
+    },
+    {
+        "CMANAME": "Sherbrooke",
+        "Temp": 23.2,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "QC",
+        "Latitude": -71.9452943819,
+        "Longitude": 45.3899770833
+    },
+    {
+        "CMANAME": "St. Catharines - Niagara",
+        "Temp": 26.8,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -79.2327031619,
+        "Longitude": 43.0356895616
+    },
+    {
+        "CMANAME": "Brantford",
+        "Temp": 24.3,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -80.3078556877,
+        "Longitude": 43.1255398004
+    },
+    {
+        "CMANAME": "Peterborough",
+        "Temp": 22.9,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -78.2661454405,
+        "Longitude": 44.3435011751
+    },
+    {
+        "CMANAME": "Ottawa - Gatineau",
+        "Temp": 24.1,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -75.8278329728,
+        "Longitude": 45.272615383
+    },
+    {
+        "CMANAME": "Oshawa",
+        "Temp": 23.0,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -78.7415998271,
+        "Longitude": 43.9668168951
+    },
+    {
+        "CMANAME": "Montreal",
+        "Temp": 24.4,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "QC",
+        "Latitude": -73.7047443898,
+        "Longitude": 45.577143105
+    },
+    {
+        "CMANAME": "Owen Sound",
+        "Temp": 22.7,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -81.0159616039,
+        "Longitude": 44.6362267134
+    },
+    {
+        "CMANAME": "Hamilton",
+        "Temp": 26.0,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -79.9258498935,
+        "Longitude": 43.2660897328
+    },
+    {
+        "CMANAME": "Norfolk",
+        "Temp": 24.2,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -80.4389197462,
+        "Longitude": 42.7993918223
+    },
+    {
+        "CMANAME": "Kitchener",
+        "Temp": 23.9,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "ON",
+        "Latitude": -80.490860674,
+        "Longitude": 43.4419153357
+    },
+    {
+        "CMANAME": "Granby",
+        "Temp": 23.6,
+        "date": "2022-11-05",
+        "days_since_record": 21,
+        "PRUID": "QC",
+        "Latitude": -72.7395158878,
+        "Longitude": 45.3914975082
+    },
+    {
+        "CMANAME": "Drummondville",
+        "Temp": 19.4,
+        "date": "2022-11-04",
+        "days_since_record": 22,
+        "PRUID": "QC",
+        "Latitude": -72.4617727388,
+        "Longitude": 45.8669377617
+    },
+    {
+        "CMANAME": "Rouyn-Noranda",
+        "Temp": 19.5,
+        "date": "2022-11-04",
+        "days_since_record": 22,
+        "PRUID": "QC",
+        "Latitude": -78.8730825906,
+        "Longitude": 48.1325583235
+    },
+    {
+        "CMANAME": "Thunder Bay",
+        "Temp": 21.3,
+        "date": "2022-11-03",
+        "days_since_record": 23,
+        "PRUID": "ON",
+        "Latitude": -89.3492238246,
+        "Longitude": 48.3688660071
+    },
+    {
+        "CMANAME": "Salmon Arm",
+        "Temp": 16.9,
+        "date": "2022-10-29",
+        "days_since_record": 28,
+        "PRUID": "BC",
+        "Latitude": -119.2866411993,
+        "Longitude": 50.7005413261
+    },
+    {
+        "CMANAME": "Corner Brook",
+        "Temp": 21.0,
+        "date": "2022-10-27",
+        "days_since_record": 30,
+        "PRUID": "NL",
+        "Latitude": -57.725545187,
+        "Longitude": 48.9842733693
+    },
+    {
+        "CMANAME": "St. John's",
+        "Temp": 21.6,
+        "date": "2022-10-27",
+        "days_since_record": 30,
+        "PRUID": "NL",
+        "Latitude": -52.8587219367,
+        "Longitude": 47.4994500019
+    },
+    {
+        "CMANAME": "Sudbury",
+        "Temp": 20.6,
+        "date": "2022-10-25",
+        "days_since_record": 32,
+        "PRUID": "ON",
+        "Latitude": -80.9467834967,
+        "Longitude": 46.5492615707
+    },
+    {
+        "CMANAME": "Sept-Iles",
+        "Temp": 16.6,
+        "date": "2022-10-23",
+        "days_since_record": 34,
+        "PRUID": "QC",
+        "Latitude": -66.0430820611,
+        "Longitude": 50.3421778872
+    },
+    {
+        "CMANAME": "Port Alberni",
+        "Temp": 22.5,
+        "date": "2022-10-20",
+        "days_since_record": 37,
+        "PRUID": "BC",
+        "Latitude": -125.1421488431,
+        "Longitude": 49.3330396893
+    },
+    {
+        "CMANAME": "Grande Prairie",
+        "Temp": 19.6,
+        "date": "2022-10-19",
+        "days_since_record": 38,
+        "PRUID": "AB",
+        "Latitude": -118.8327182382,
+        "Longitude": 55.1833183693
+    },
+    {
+        "CMANAME": "Campbell River",
+        "Temp": 21.5,
+        "date": "2022-10-19",
+        "days_since_record": 38,
+        "PRUID": "BC",
+        "Latitude": -125.5907446143,
+        "Longitude": 49.8103821558
+    },
+    {
+        "CMANAME": "Nanaimo",
+        "Temp": 20.9,
+        "date": "2022-10-19",
+        "days_since_record": 38,
+        "PRUID": "BC",
+        "Latitude": -124.234805358,
+        "Longitude": 49.1278964399
+    },
+    {
+        "CMANAME": "Okotoks",
+        "Temp": 24.0,
+        "date": "2022-10-19",
+        "days_since_record": 38,
+        "PRUID": "AB",
+        "Latitude": -113.9619850621,
+        "Longitude": 50.7263600987
+    },
+    {
+        "CMANAME": "Edmonton",
+        "Temp": 27.0,
+        "date": "2022-10-19",
+        "days_since_record": 38,
+        "PRUID": "AB",
+        "Latitude": -113.7884675234,
+        "Longitude": 53.5131932826
+    },
+    {
+        "CMANAME": "Wood Buffalo",
+        "Temp": 21.8,
+        "date": "2022-10-18",
+        "days_since_record": 39,
+        "PRUID": "AB",
+        "Latitude": -111.328071963,
+        "Longitude": 57.6020626259
+    },
+    {
+        "CMANAME": "Quesnel",
+        "Temp": 20.8,
+        "date": "2022-10-18",
+        "days_since_record": 39,
+        "PRUID": "BC",
+        "Latitude": -122.8073833608,
+        "Longitude": 53.0449480865
+    },
+    {
+        "CMANAME": "Lethbridge",
+        "Temp": 26.9,
+        "date": "2022-10-18",
+        "days_since_record": 39,
+        "PRUID": "AB",
+        "Latitude": -112.76773162,
+        "Longitude": 49.8437458377
+    },
+    {
+        "CMANAME": "Dawson Creek",
+        "Temp": 22.4,
+        "date": "2022-10-18",
+        "days_since_record": 39,
+        "PRUID": "BC",
+        "Latitude": -120.4194642835,
+        "Longitude": 55.0618336548
+    },
+    {
+        "CMANAME": "Ladysmith",
+        "Temp": 18.5,
+        "date": "2022-10-18",
+        "days_since_record": 39,
+        "PRUID": "BC",
+        "Latitude": -123.9422359393,
+        "Longitude": 48.9852469882
+    },
+    {
+        "CMANAME": "Nelson",
+        "Temp": 19.4,
+        "date": "2022-10-17",
+        "days_since_record": 40,
+        "PRUID": "BC",
+        "Latitude": -117.1921236441,
+        "Longitude": 49.5477458798
+    },
+    {
+        "CMANAME": "Calgary",
+        "Temp": 27.5,
+        "date": "2022-10-17",
+        "days_since_record": 40,
+        "PRUID": "AB",
+        "Latitude": -114.0781256979,
+        "Longitude": 51.1807794455
+    },
+    {
+        "CMANAME": "Williams Lake",
+        "Temp": 20.0,
+        "date": "2022-10-17",
+        "days_since_record": 40,
+        "PRUID": "BC",
+        "Latitude": -121.3992061307,
+        "Longitude": 52.380346867
+    },
+    {
+        "CMANAME": "Fort St. John",
+        "Temp": 22.5,
+        "date": "2022-10-17",
+        "days_since_record": 40,
+        "PRUID": "BC",
+        "Latitude": -120.7821886221,
+        "Longitude": 56.2339501849
+    },
+    {
+        "CMANAME": "Prince Rupert",
+        "Temp": 21.0,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -130.0299552772,
+        "Longitude": 54.4507272183
+    },
+    {
+        "CMANAME": "Powell River",
+        "Temp": 23.5,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -124.3008223655,
+        "Longitude": 49.8982599783
+    },
+    {
+        "CMANAME": "Terrace",
+        "Temp": 18.0,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -128.6070462251,
+        "Longitude": 54.555597139
+    },
+    {
+        "CMANAME": "Squamish",
+        "Temp": 25.8,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -123.137427128,
+        "Longitude": 49.7492075153
+    },
+    {
+        "CMANAME": "Abbotsford - Mission",
+        "Temp": 26.1,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -122.3083451072,
+        "Longitude": 49.1349957717
+    },
+    {
+        "CMANAME": "Duncan",
+        "Temp": 25.7,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -123.7258436269,
+        "Longitude": 48.8086314755
+    },
+    {
+        "CMANAME": "Whitehorse",
+        "Temp": 16.8,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "YK",
+        "Latitude": -135.0653096489,
+        "Longitude": 60.6651536278
+    },
+    {
+        "CMANAME": "Victoria",
+        "Temp": 24.6,
+        "date": "2022-10-16",
+        "days_since_record": 41,
+        "PRUID": "BC",
+        "Latitude": -123.5507324365,
+        "Longitude": 48.4654161817
+    },
+    {
+        "CMANAME": "Chilliwack",
+        "Temp": 28.2,
+        "date": "2022-10-15",
+        "days_since_record": 42,
+        "PRUID": "BC",
+        "Latitude": -121.723060127,
+        "Longitude": 49.1377689612
+    },
+    {
+        "CMANAME": "Vancouver",
+        "Temp": 27.5,
+        "date": "2022-10-15",
+        "days_since_record": 42,
+        "PRUID": "BC",
+        "Latitude": -122.8360663089,
+        "Longitude": 49.2827152228
+    },
+    {
+        "CMANAME": "Parksville",
+        "Temp": 22.1,
+        "date": "2022-10-14",
+        "days_since_record": 43,
+        "PRUID": "BC",
+        "Latitude": -124.3941261577,
+        "Longitude": 49.3302857672
+    },
+    {
+        "CMANAME": "Vernon",
+        "Temp": 21.9,
+        "date": "2022-10-12",
+        "days_since_record": 45,
+        "PRUID": "BC",
+        "Latitude": -119.3455271775,
+        "Longitude": 50.3073967892
+    },
+    {
+        "CMANAME": "Penticton",
+        "Temp": 25.6,
+        "date": "2022-10-10",
+        "days_since_record": 47,
+        "PRUID": "BC",
+        "Latitude": -119.6686837058,
+        "Longitude": 49.4694882337
+    },
+    {
+        "CMANAME": "Moose Jaw",
+        "Temp": 33.0,
+        "date": "2022-09-29",
+        "days_since_record": 58,
+        "PRUID": "SK",
+        "Latitude": -105.5117291663,
+        "Longitude": 50.4405784577
+    },
+    {
+        "CMANAME": "Weyburn",
+        "Temp": 29.5,
+        "date": "2022-09-29",
+        "days_since_record": 58,
+        "PRUID": "SK",
+        "Latitude": -103.8355638875,
+        "Longitude": 49.653753963
+    },
+    {
+        "CMANAME": "Medicine Hat",
+        "Temp": 34.1,
+        "date": "2022-09-28",
+        "days_since_record": 59,
+        "PRUID": "AB",
+        "Latitude": -110.5849166776,
+        "Longitude": 50.0146955071
+    },
+    {
+        "CMANAME": "Swift Current",
+        "Temp": 31.8,
+        "date": "2022-09-28",
+        "days_since_record": 59,
+        "PRUID": "SK",
+        "Latitude": -107.8542324596,
+        "Longitude": 50.2228575755
+    },
+    {
+        "CMANAME": "Yellowknife",
+        "Temp": 22.3,
+        "date": "2022-09-27",
+        "days_since_record": 60,
+        "PRUID": "NWT",
+        "Latitude": -114.4052825695,
+        "Longitude": 62.4708571509
+    },
+    {
+        "CMANAME": "Estevan",
+        "Temp": 35.3,
+        "date": "2022-09-05",
+        "days_since_record": 82,
+        "PRUID": "SK",
+        "Latitude": -103.0113080736,
+        "Longitude": 49.1306622542
+    },
+    {
+        "CMANAME": "North Battleford",
+        "Temp": 36.5,
+        "date": "2022-09-04",
+        "days_since_record": 83,
+        "PRUID": "SK",
+        "Latitude": -108.4374304976,
+        "Longitude": 52.7355085163
+    },
+    {
+        "CMANAME": "Brooks",
+        "Temp": 34.1,
+        "date": "2022-09-04",
+        "days_since_record": 83,
+        "PRUID": "AB",
+        "Latitude": -111.8919456225,
+        "Longitude": 50.5648378893
+    },
+    {
+        "CMANAME": "Saskatoon",
+        "Temp": 35.1,
+        "date": "2022-09-03",
+        "days_since_record": 84,
+        "PRUID": "SK",
+        "Latitude": -106.5650723275,
+        "Longitude": 52.0976656387
+    },
+    {
+        "CMANAME": "Prince Albert",
+        "Temp": 31.9,
+        "date": "2022-09-03",
+        "days_since_record": 84,
+        "PRUID": "SK",
+        "Latitude": -105.6097211276,
+        "Longitude": 53.2408858688
+    },
+    {
+        "CMANAME": "Trail",
+        "Temp": 37.5,
+        "date": "2022-09-02",
+        "days_since_record": 85,
+        "PRUID": "BC",
+        "Latitude": -117.600552433,
+        "Longitude": 49.0989098202
+    },
+    {
+        "CMANAME": "Kamloops",
+        "Temp": 38.3,
+        "date": "2022-09-02",
+        "days_since_record": 85,
+        "PRUID": "BC",
+        "Latitude": -120.5107348714,
+        "Longitude": 50.8017774335
+    },
+    {
+        "CMANAME": "Prince George",
+        "Temp": 32.2,
+        "date": "2022-08-25",
+        "days_since_record": 93,
+        "PRUID": "BC",
+        "Latitude": -121.9302733129,
+        "Longitude": 53.9233667789
+    },
+    {
+        "CMANAME": "Cranbrook",
+        "Temp": 37.4,
+        "date": "2022-07-31",
+        "days_since_record": 118,
+        "PRUID": "BC",
+        "Latitude": -115.5911929037,
+        "Longitude": 49.5062309248
+    },
+    {
+        "CMANAME": "Cobourg",
+        "Temp": 29.0,
+        "date": "2022-06-22",
+        "days_since_record": 157,
+        "PRUID": "ON",
+        "Latitude": -78.1656932321,
+        "Longitude": 43.9712510218
+    },
+    {
+        "CMANAME": "Toronto",
+        "Temp": 35.8,
+        "date": "2022-06-22",
+        "days_since_record": 157,
+        "PRUID": "ON",
+        "Latitude": -79.5801295345,
+        "Longitude": 43.9047091087
+    },
+    {
+        "CMANAME": "Sarnia",
+        "Temp": 34.5,
+        "date": "2022-06-21",
+        "days_since_record": 158,
+        "PRUID": "ON",
+        "Latitude": -82.281461469,
+        "Longitude": 42.8709227823
+    },
+    {
+        "CMANAME": "Woodstock",
+        "Temp": 33.5,
+        "date": "2022-06-21",
+        "days_since_record": 158,
+        "PRUID": "ON",
+        "Latitude": -80.7247908745,
+        "Longitude": 43.1380810914
+    },
+    {
+        "CMANAME": "Winkler",
+        "Temp": 36.7,
+        "date": "2022-06-19",
+        "days_since_record": 160,
+        "PRUID": "MB",
+        "Latitude": -98.0669265864,
+        "Longitude": 49.1335489995
+    },
+    {
+        "CMANAME": "Regina",
+        "Temp": 35.1,
+        "date": "2022-06-18",
+        "days_since_record": 161,
+        "PRUID": "SK",
+        "Latitude": -104.6209446338,
+        "Longitude": 50.4493036466
+    },
+    {
+        "CMANAME": "Windsor",
+        "Temp": 35.5,
+        "date": "2022-06-15",
+        "days_since_record": 164,
+        "PRUID": "ON",
+        "Latitude": -82.7813136786,
+        "Longitude": 42.1631546075
+    },
+    {
+        "CMANAME": "Barrie",
+        "Temp": 32.5,
+        "date": "2022-05-31",
+        "days_since_record": 179,
+        "PRUID": "ON",
+        "Latitude": -79.7386922475,
+        "Longitude": 44.4073382589
+    },
+    {
+        "CMANAME": "North Bay",
+        "Temp": 30.9,
+        "date": "2022-05-14",
+        "days_since_record": 196,
+        "PRUID": "ON",
+        "Latitude": -79.4446306322,
+        "Longitude": 46.5026650684
+    },
+    {
+        "CMANAME": "Thetford Mines",
+        "Temp": 29.9,
+        "date": "2022-05-14",
+        "days_since_record": 196,
+        "PRUID": "QC",
+        "Latitude": -71.3178813207,
+        "Longitude": 46.0703232208
+    },
+    {
+        "CMANAME": "Timmins",
+        "Temp": 32.1,
+        "date": "2022-05-14",
+        "days_since_record": 196,
+        "PRUID": "ON",
+        "Latitude": -81.2805343434,
+        "Longitude": 48.489759453
+    },
+    {
+        "CMANAME": "Orillia",
+        "Temp": 29.0,
+        "date": "2022-05-12",
+        "days_since_record": 198,
+        "PRUID": "ON",
+        "Latitude": -79.3777047873,
+        "Longitude": 44.5627349715
+    },
+    {
+        "CMANAME": "Essa",
+        "Temp": 28.2,
+        "date": "2022-05-11",
+        "days_since_record": 199,
+        "PRUID": "ON",
+        "Latitude": -79.8126695487,
+        "Longitude": 44.2610735956
+    },
+    {
+        "CMANAME": "Kingston",
+        "Temp": 14.5,
+        "date": "2022-03-06",
+        "days_since_record": 265,
+        "PRUID": "ON",
+        "Latitude": -76.5393636349,
+        "Longitude": 44.3948649064
+    },
+    {
+        "CMANAME": "Brandon",
+        "Temp": 3.8,
+        "date": "2022-02-10",
+        "days_since_record": 289,
+        "PRUID": "MB",
+        "Latitude": -100.0527790899,
+        "Longitude": 49.8841354204
+    },
+    {
+        "CMANAME": "Kelowna",
+        "Temp": 14.0,
+        "date": "2022-02-07",
+        "days_since_record": 292,
+        "PRUID": "BC",
+        "Latitude": -119.4580536108,
+        "Longitude": 49.9489266915
+    },
+    {
+        "CMANAME": "Victoriaville",
+        "Temp": 14.0,
+        "date": "2021-12-16",
+        "days_since_record": 345,
+        "PRUID": "QC",
+        "Latitude": -71.9335228758,
+        "Longitude": 46.0294443382
+    },
+    {
+        "CMANAME": "Saint-Georges",
+        "Temp": 10.0,
+        "date": "2021-12-16",
+        "days_since_record": 345,
+        "PRUID": "QC",
+        "Latitude": -70.6415000387,
+        "Longitude": 46.1029450579
+    },
+    {
+        "CMANAME": "Saint-Hyacinthe",
+        "Temp": 14.0,
+        "date": "2021-12-16",
+        "days_since_record": 345,
+        "PRUID": "QC",
+        "Latitude": -72.9100201533,
+        "Longitude": 45.6211773421
+    },
+    {
+        "CMANAME": "Sorel-Tracy",
+        "Temp": 13.0,
+        "date": "2021-12-16",
+        "days_since_record": 345,
+        "PRUID": "QC",
+        "Latitude": -73.0784514422,
+        "Longitude": 45.9985755682
+    },
+    {
+        "CMANAME": "Lachute",
+        "Temp": 13.2,
+        "date": "2021-12-16",
+        "days_since_record": 345,
+        "PRUID": "QC",
+        "Latitude": -74.2961541318,
+        "Longitude": 45.6668935747
+    },
+    {
+        "CMANAME": "London",
+        "Temp": 16.5,
+        "date": "2021-12-11",
+        "days_since_record": 350,
+        "PRUID": "ON",
+        "Latitude": -81.3293848325,
+        "Longitude": 42.933300485
+    },
+    {
+        "CMANAME": "Guelph",
+        "Temp": 16.2,
+        "date": "2021-12-11",
+        "days_since_record": 350,
+        "PRUID": "ON",
+        "Latitude": -80.2197022527,
+        "Longitude": 43.5439828668
+    },
+    {
+        "CMANAME": "Yorkton",
+        "Temp": 28.8,
+        "date": "2021-10-06",
+        "days_since_record": 416,
+        "PRUID": "SK",
+        "Latitude": -102.4286144534,
+        "Longitude": 51.2546382032
+    },
+    {
+        "CMANAME": "Winnipeg",
+        "Temp": 29.6,
+        "date": "2021-09-28",
+        "days_since_record": 424,
+        "PRUID": "MB",
+        "Latitude": -97.0481461731,
+        "Longitude": 49.8873899534
+    },
+    {
+        "CMANAME": "Courtenay",
+        "Temp": 35.4,
+        "date": "2021-08-12",
+        "days_since_record": 471,
+        "PRUID": "BC",
+        "Latitude": -124.9282783463,
+        "Longitude": 49.5614180438
+    },
+    {
+        "CMANAME": "Amos",
+        "Temp": 30.0,
+        "date": "2021-05-19",
+        "days_since_record": 556,
+        "PRUID": "QC",
+        "Latitude": -78.1850871098,
+        "Longitude": 48.6929162858
+    },
+    {
+        "CMANAME": "Chatham-Kent",
+        "Temp": 19.4,
+        "date": "2021-03-11",
+        "days_since_record": 625,
+        "PRUID": "ON",
+        "Latitude": -82.1313004532,
+        "Longitude": 42.4237919857
+    }
+]
