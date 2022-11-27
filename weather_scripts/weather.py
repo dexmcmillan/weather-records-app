@@ -349,7 +349,7 @@ class WeatherData:
                                   .sort_values("days_since_record")
                                   )
         
-        cityLocations = pd.read_csv("./methodology/cma_points.csv", index_col="CMANAME")
+        cityLocations = pd.read_csv("./data/cma_geodata.csv", index_col="CMANAME")
         
         daysSinceMaximumRecord = (daysSinceMaximumRecord
                                   .join(cityLocations)
