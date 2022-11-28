@@ -1,5 +1,5 @@
 <template>
-  <div id="map" class="border-2 w-fit h-fit">
+  <div id="app" class="w-full lg:w-3/4 mx-auto p-5">
     <nuxt-page></nuxt-page>
   </div>
 </template>
