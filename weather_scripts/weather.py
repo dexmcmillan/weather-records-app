@@ -349,14 +349,16 @@ class WeatherData:
                                   .sort_values("days_since_record")
                                   )
         
+        # For mapping functionality, we want to add on Lat/Long info. We load that in here.
         cityLocations = pd.read_csv("./data/cma_geodata.csv", index_col="CMANAME")
         
+        # Then join it to the exported dataset.
         daysSinceMaximumRecord = (daysSinceMaximumRecord
                                   .join(cityLocations)
                                   .reset_index()
                                   )
         
-        
+        # We want to change a few overly long city names.
         daysSinceMaximumRecord["CMANAME"] = (daysSinceMaximumRecord["CMANAME"]
                                              .str.replace("Greater Sudbury / Grand Sudbury", "Sudbury", regex=False)
                                              .str.replace("Kitchener - Cambridge - Waterloo", "Kitchener", regex=False)

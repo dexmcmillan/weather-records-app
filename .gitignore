@@ -7,6 +7,8 @@ node_modules
 .env
 dist
 
+.vite
+
 data-historical-both.csv
 
 __pycache__
