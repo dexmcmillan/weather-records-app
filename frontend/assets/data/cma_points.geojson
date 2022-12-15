@@ -1,0 +1,3131 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "001",
+                "CMAPUID": "10001",
+                "DGUID": "2021S0503001",
+                "DGUIDP": null,
+                "CMANAME": "St. John's",
+                "CMATYPE": "B",
+                "LANDAREA": 931.5637,
+                "PRUID": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -52.858721936690927,
+                    47.499450001911953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "010",
+                "CMAPUID": "10010",
+                "DGUID": "2021S0504010",
+                "DGUIDP": null,
+                "CMANAME": "Grand Falls-Windsor",
+                "CMATYPE": "D",
+                "LANDAREA": 54.8429,
+                "PRUID": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -55.663171319094829,
+                    48.957694885529364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "011",
+                "CMAPUID": "10011",
+                "DGUID": "2021S0504011",
+                "DGUIDP": null,
+                "CMANAME": "Gander",
+                "CMATYPE": "D",
+                "LANDAREA": 2412.67,
+                "PRUID": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -54.895730583767467,
+                    48.775055018161851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "015",
+                "CMAPUID": "10015",
+                "DGUID": "2021S0504015",
+                "DGUIDP": null,
+                "CMANAME": "Corner Brook",
+                "CMATYPE": "D",
+                "LANDAREA": 1122.5751,
+                "PRUID": "10"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.725545186997998,
+                    48.984273369253565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "105",
+                "CMAPUID": "11105",
+                "DGUID": "2021S0504105",
+                "DGUIDP": null,
+                "CMANAME": "Charlottetown",
+                "CMATYPE": "D",
+                "LANDAREA": 1112.4274,
+                "PRUID": "11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.138067080385291,
+                    46.319135548167665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "110",
+                "CMAPUID": "11110",
+                "DGUID": "2021S0504110",
+                "DGUIDP": null,
+                "CMANAME": "Summerside",
+                "CMATYPE": "D",
+                "LANDAREA": 125.1185,
+                "PRUID": "11"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.852131227826987,
+                    46.443105338853705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "205",
+                "CMAPUID": "12205",
+                "DGUID": "2021S0503205",
+                "DGUIDP": null,
+                "CMANAME": "Halifax",
+                "CMATYPE": "B",
+                "LANDAREA": 7276.2157,
+                "PRUID": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.279166572109254,
+                    44.921472837918529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "210",
+                "CMAPUID": "12210",
+                "DGUID": "2021S0504210",
+                "DGUIDP": null,
+                "CMANAME": "Kentville",
+                "CMATYPE": "D",
+                "LANDAREA": 607.0513,
+                "PRUID": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.489064757835649,
+                    45.082397347716388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "215",
+                "CMAPUID": "12215",
+                "DGUID": "2021S0504215",
+                "DGUIDP": null,
+                "CMANAME": "Truro",
+                "CMATYPE": "D",
+                "LANDAREA": 2732.5279,
+                "PRUID": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.194220934296105,
+                    45.391447045516784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "220",
+                "CMAPUID": "12220",
+                "DGUID": "2021S0504220",
+                "DGUIDP": null,
+                "CMANAME": "New Glasgow",
+                "CMATYPE": "D",
+                "LANDAREA": 2066.4671,
+                "PRUID": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.513785508290226,
+                    45.490367495550231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "225",
+                "CMAPUID": "12225",
+                "DGUID": "2021S0504225",
+                "DGUIDP": null,
+                "CMANAME": "Cape Breton",
+                "CMATYPE": "D",
+                "LANDAREA": 2457.2065,
+                "PRUID": "12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.262583792059807,
+                    46.009864461973478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "305",
+                "CMAPUID": "13305",
+                "DGUID": "2021S0503305",
+                "DGUIDP": null,
+                "CMANAME": "Moncton",
+                "CMATYPE": "B",
+                "LANDAREA": 2562.4663,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.858101574639889,
+                    46.014796517179043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "310",
+                "CMAPUID": "13310",
+                "DGUID": "2021S0503310",
+                "DGUIDP": null,
+                "CMANAME": "Saint John",
+                "CMATYPE": "B",
+                "LANDAREA": 3505.6642,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.01029509574289,
+                    45.403949339561791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "320",
+                "CMAPUID": "13320",
+                "DGUID": "2021S0503320",
+                "DGUIDP": null,
+                "CMANAME": "Fredericton",
+                "CMATYPE": "B",
+                "LANDAREA": 6014.6624,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.779434090986328,
+                    46.014751420786155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "328",
+                "CMAPUID": "13328",
+                "DGUID": "2021S0504328",
+                "DGUIDP": null,
+                "CMANAME": "Bathurst",
+                "CMATYPE": "D",
+                "LANDAREA": 2100.0493,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.806337378414185,
+                    47.543473043589714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "329",
+                "CMAPUID": "13329",
+                "DGUID": "2021S0504329",
+                "DGUIDP": null,
+                "CMANAME": "Miramichi",
+                "CMATYPE": "D",
+                "LANDAREA": 7564.06,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.140682821729001,
+                    47.111794589017308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "330",
+                "CMAPUID": "13330",
+                "DGUID": "2021S0504330",
+                "DGUIDP": "2021S050613330",
+                "CMANAME": "Campbellton (New Brunswick part / partie du Nouveau-Brunswick)",
+                "CMATYPE": "D",
+                "LANDAREA": 1090.4908,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.764377873255086,
+                    47.720203899334805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "330",
+                "CMAPUID": "24330",
+                "DGUID": "2021S0504330",
+                "DGUIDP": "2021S050624330",
+                "CMANAME": "Campbellton (partie du Québec / Quebec part)",
+                "CMATYPE": "D",
+                "LANDAREA": 434.9604,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.717641408375755,
+                    48.119818102336858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "335",
+                "CMAPUID": "13335",
+                "DGUID": "2021S0504335",
+                "DGUIDP": null,
+                "CMANAME": "Edmundston",
+                "CMATYPE": "D",
+                "LANDAREA": 1582.3597,
+                "PRUID": "13"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.173235001458977,
+                    47.511562350011438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "403",
+                "CMAPUID": "24403",
+                "DGUID": "2021S0504403",
+                "DGUIDP": null,
+                "CMANAME": "Matane",
+                "CMATYPE": "D",
+                "LANDAREA": 865.8684,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.424870274437524,
+                    48.773370531704749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "404",
+                "CMAPUID": "24404",
+                "DGUID": "2021S0504404",
+                "DGUIDP": null,
+                "CMANAME": "Rimouski",
+                "CMATYPE": "D",
+                "LANDAREA": 772.9257,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.510537286260231,
+                    48.348323046196732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "405",
+                "CMAPUID": "24405",
+                "DGUID": "2021S0504405",
+                "DGUIDP": null,
+                "CMANAME": "Rivière-du-Loup",
+                "CMATYPE": "D",
+                "LANDAREA": 543.0159,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.443281329191137,
+                    47.808278050619094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "406",
+                "CMAPUID": "24406",
+                "DGUID": "2021S0504406",
+                "DGUIDP": null,
+                "CMANAME": "Baie-Comeau",
+                "CMATYPE": "D",
+                "LANDAREA": 682.8931,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.327571066644012,
+                    49.203026549294052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "408",
+                "CMAPUID": "24408",
+                "DGUID": "2021S0503408",
+                "DGUIDP": null,
+                "CMANAME": "Saguenay",
+                "CMATYPE": "B",
+                "LANDAREA": 3133.5308,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.008268234561655,
+                    48.419452740527944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "410",
+                "CMAPUID": "24410",
+                "DGUID": "2021S0504410",
+                "DGUIDP": null,
+                "CMANAME": "Alma",
+                "CMATYPE": "D",
+                "LANDAREA": 194.923,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.682403502132431,
+                    48.592061667663003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "411",
+                "CMAPUID": "24411",
+                "DGUID": "2021S0504411",
+                "DGUIDP": null,
+                "CMANAME": "Dolbeau-Mistassini",
+                "CMATYPE": "D",
+                "LANDAREA": 647.7548,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.151908731887389,
+                    48.873099535827912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "412",
+                "CMAPUID": "24412",
+                "DGUID": "2021S0504412",
+                "DGUIDP": null,
+                "CMANAME": "Sept-Îles",
+                "CMATYPE": "D",
+                "LANDAREA": 1750.4394,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.043082061131557,
+                    50.342177887233056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "421",
+                "CMAPUID": "24421",
+                "DGUID": "2021S0503421",
+                "DGUIDP": null,
+                "CMANAME": "Québec",
+                "CMATYPE": "B",
+                "LANDAREA": 3499.4572,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.341899925408313,
+                    46.91263204041676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "423",
+                "CMAPUID": "24423",
+                "DGUID": "2021S0504423",
+                "DGUIDP": null,
+                "CMANAME": "Sainte-Marie",
+                "CMATYPE": "D",
+                "LANDAREA": 107.5486,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.003768800704108,
+                    46.442586683557217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "428",
+                "CMAPUID": "24428",
+                "DGUID": "2021S0504428",
+                "DGUIDP": null,
+                "CMANAME": "Saint-Georges",
+                "CMATYPE": "D",
+                "LANDAREA": 365.2126,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.641500038723933,
+                    46.102945057916656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "430",
+                "CMAPUID": "24430",
+                "DGUID": "2021S0504430",
+                "DGUIDP": null,
+                "CMANAME": "Thetford Mines",
+                "CMATYPE": "D",
+                "LANDAREA": 405.9157,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.31788132067426,
+                    46.0703232207605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "433",
+                "CMAPUID": "24433",
+                "DGUID": "2021S0503433",
+                "DGUIDP": null,
+                "CMANAME": "Sherbrooke",
+                "CMATYPE": "B",
+                "LANDAREA": 1458.0974,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.945294381925038,
+                    45.389977083301503
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "437",
+                "CMAPUID": "24437",
+                "DGUID": "2021S0504437",
+                "DGUIDP": null,
+                "CMANAME": "Cowansville",
+                "CMATYPE": "D",
+                "LANDAREA": 46.8746,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.765319539656645,
+                    45.207114731122203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "440",
+                "CMAPUID": "24440",
+                "DGUID": "2021S0504440",
+                "DGUIDP": null,
+                "CMANAME": "Victoriaville",
+                "CMATYPE": "D",
+                "LANDAREA": 378.103,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.933522875789606,
+                    46.029444338226249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "442",
+                "CMAPUID": "24442",
+                "DGUID": "2021S0503442",
+                "DGUIDP": null,
+                "CMANAME": "Trois-Rivières",
+                "CMATYPE": "B",
+                "LANDAREA": 1038.6392,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.502260373746068,
+                    46.360246160753448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "444",
+                "CMAPUID": "24444",
+                "DGUID": "2021S0504444",
+                "DGUIDP": null,
+                "CMANAME": "Shawinigan",
+                "CMATYPE": "D",
+                "LANDAREA": 729.9823,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.881465246745464,
+                    46.711777083411455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "447",
+                "CMAPUID": "24447",
+                "DGUID": "2021S0503447",
+                "DGUIDP": null,
+                "CMANAME": "Drummondville",
+                "CMATYPE": "B",
+                "LANDAREA": 1094.3642,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.461772738768317,
+                    45.866937761674066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "450",
+                "CMAPUID": "24450",
+                "DGUID": "2021S0504450",
+                "DGUIDP": null,
+                "CMANAME": "Granby",
+                "CMATYPE": "K",
+                "LANDAREA": 494.1004,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.739515887756198,
+                    45.391497508166196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "452",
+                "CMAPUID": "24452",
+                "DGUID": "2021S0504452",
+                "DGUIDP": null,
+                "CMANAME": "Saint-Hyacinthe",
+                "CMATYPE": "K",
+                "LANDAREA": 259.3757,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.910020153310398,
+                    45.621177342127481
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "454",
+                "CMAPUID": "24454",
+                "DGUID": "2021S0504454",
+                "DGUIDP": null,
+                "CMANAME": "Sorel-Tracy",
+                "CMATYPE": "D",
+                "LANDAREA": 170.3051,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.078451442171399,
+                    45.998575568190873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "456",
+                "CMAPUID": "24456",
+                "DGUID": "2021S0504456",
+                "DGUIDP": null,
+                "CMANAME": "Joliette",
+                "CMATYPE": "D",
+                "LANDAREA": 108.6636,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.430309406559431,
+                    46.000966860987248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "462",
+                "CMAPUID": "24462",
+                "DGUID": "2021S0503462",
+                "DGUIDP": null,
+                "CMANAME": "Montréal",
+                "CMATYPE": "B",
+                "LANDAREA": 4670.098,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.704744389847477,
+                    45.577143105046311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "465",
+                "CMAPUID": "24465",
+                "DGUID": "2021S0504465",
+                "DGUIDP": null,
+                "CMANAME": "Salaberry-de-Valleyfield",
+                "CMATYPE": "D",
+                "LANDAREA": 108.5609,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.059660405199125,
+                    45.264714690906231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "467",
+                "CMAPUID": "24467",
+                "DGUID": "2021S0504467",
+                "DGUIDP": null,
+                "CMANAME": "Sainte-Agathe-des-Monts",
+                "CMATYPE": "D",
+                "LANDAREA": 210.9639,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.267212792145472,
+                    46.050061027260256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "468",
+                "CMAPUID": "24468",
+                "DGUID": "2021S0504468",
+                "DGUIDP": null,
+                "CMANAME": "Lachute",
+                "CMATYPE": "D",
+                "LANDAREA": 108.6571,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.29615413176171,
+                    45.666893574728881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "480",
+                "CMAPUID": "24480",
+                "DGUID": "2021S0504480",
+                "DGUIDP": null,
+                "CMANAME": "Val-d'Or",
+                "CMATYPE": "D",
+                "LANDAREA": 3539.976,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.67129255629483,
+                    47.979228263951725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "481",
+                "CMAPUID": "24481",
+                "DGUID": "2021S0504481",
+                "DGUIDP": null,
+                "CMANAME": "Amos",
+                "CMATYPE": "D",
+                "LANDAREA": 2298.1551,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.185087109773619,
+                    48.692916285847133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "485",
+                "CMAPUID": "24485",
+                "DGUID": "2021S0504485",
+                "DGUIDP": null,
+                "CMANAME": "Rouyn-Noranda",
+                "CMATYPE": "D",
+                "LANDAREA": 5963.5674,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.873082590623852,
+                    48.132558323454944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "501",
+                "CMAPUID": "35501",
+                "DGUID": "2021S0504501",
+                "DGUIDP": null,
+                "CMANAME": "Cornwall",
+                "CMATYPE": "D",
+                "LANDAREA": 509.2145,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.914869158561672,
+                    45.070538853027337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "502",
+                "CMAPUID": "24502",
+                "DGUID": "2021S0504502",
+                "DGUIDP": "2021S050624502",
+                "CMANAME": "Hawkesbury (partie du Québec / Quebec part)",
+                "CMATYPE": "D",
+                "LANDAREA": 2.8174,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.59920900359154,
+                    45.627582834779922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "502",
+                "CMAPUID": "35502",
+                "DGUID": "2021S0504502",
+                "DGUIDP": "2021S050635502",
+                "CMANAME": "Hawkesbury (Ontario part / partie de l'Ontario)",
+                "CMATYPE": "D",
+                "LANDAREA": 10.0963,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.610595848473295,
+                    45.60885587747461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "505",
+                "CMAPUID": "24505",
+                "DGUID": "2021S0503505",
+                "DGUIDP": "2021S050524505",
+                "CMANAME": "Ottawa - Gatineau (partie du Québec / Quebec part)",
+                "CMATYPE": "B",
+                "LANDAREA": 3381.8311,
+                "PRUID": "24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.737454723670353,
+                    45.682878563033981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "505",
+                "CMAPUID": "35505",
+                "DGUID": "2021S0503505",
+                "DGUIDP": "2021S050535505",
+                "CMANAME": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+                "CMATYPE": "B",
+                "LANDAREA": 4665.1591,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.827832972792976,
+                    45.272615383000606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "512",
+                "CMAPUID": "35512",
+                "DGUID": "2021S0504512",
+                "DGUIDP": null,
+                "CMANAME": "Brockville",
+                "CMATYPE": "D",
+                "LANDAREA": 576.8673,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.86140201583116,
+                    44.698618695996416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "515",
+                "CMAPUID": "35515",
+                "DGUID": "2021S0504515",
+                "DGUIDP": null,
+                "CMANAME": "Pembroke",
+                "CMATYPE": "D",
+                "LANDAREA": 553.4027,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.237484333927952,
+                    45.748665984086145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "516",
+                "CMAPUID": "35516",
+                "DGUID": "2021S0504516",
+                "DGUIDP": null,
+                "CMANAME": "Petawawa",
+                "CMATYPE": "D",
+                "LANDAREA": 164.6985,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.310044103407122,
+                    45.894202933418867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "521",
+                "CMAPUID": "35521",
+                "DGUID": "2021S0503521",
+                "DGUIDP": null,
+                "CMANAME": "Kingston",
+                "CMATYPE": "B",
+                "LANDAREA": 1919.1686,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.539363634949751,
+                    44.394864906436766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "522",
+                "CMAPUID": "35522",
+                "DGUID": "2021S0503522",
+                "DGUIDP": null,
+                "CMANAME": "Belleville - Quinte West",
+                "CMATYPE": "B",
+                "LANDAREA": 1337.4982,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.455533370434324,
+                    44.259568615871409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "527",
+                "CMAPUID": "35527",
+                "DGUID": "2021S0504527",
+                "DGUIDP": null,
+                "CMANAME": "Cobourg",
+                "CMATYPE": "D",
+                "LANDAREA": 22.4072,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.165693232110925,
+                    43.97125102176615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "528",
+                "CMAPUID": "35528",
+                "DGUID": "2021S0504528",
+                "DGUIDP": null,
+                "CMANAME": "Port Hope",
+                "CMATYPE": "D",
+                "LANDAREA": 278.8012,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.389030123893477,
+                    44.015078792842736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "529",
+                "CMAPUID": "35529",
+                "DGUID": "2021S0503529",
+                "DGUIDP": null,
+                "CMANAME": "Peterborough",
+                "CMATYPE": "B",
+                "LANDAREA": 1508.4421,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.26614544054901,
+                    44.343501175063352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "530",
+                "CMAPUID": "35530",
+                "DGUID": "2021S0504530",
+                "DGUIDP": null,
+                "CMANAME": "Kawartha Lakes",
+                "CMATYPE": "D",
+                "LANDAREA": 3033.6568,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.816435607858836,
+                    44.518272682742754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "531",
+                "CMAPUID": "35531",
+                "DGUID": "2021S0504531",
+                "DGUIDP": null,
+                "CMANAME": "Centre Wellington",
+                "CMATYPE": "D",
+                "LANDAREA": 409.4129,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.386557825154526,
+                    43.716070151831623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "532",
+                "CMAPUID": "35532",
+                "DGUID": "2021S0503532",
+                "DGUIDP": null,
+                "CMANAME": "Oshawa",
+                "CMATYPE": "B",
+                "LANDAREA": 903.2512,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.741599827067063,
+                    43.966816895128964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "533",
+                "CMAPUID": "35533",
+                "DGUID": "2021S0504533",
+                "DGUIDP": null,
+                "CMANAME": "Ingersoll",
+                "CMATYPE": "D",
+                "LANDAREA": 12.7337,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.882135346693147,
+                    43.032808104449813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "535",
+                "CMAPUID": "35535",
+                "DGUID": "2021S0503535",
+                "DGUIDP": null,
+                "CMANAME": "Toronto",
+                "CMATYPE": "B",
+                "LANDAREA": 5902.7499,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.580129534490624,
+                    43.904709108719736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "537",
+                "CMAPUID": "35537",
+                "DGUID": "2021S0503537",
+                "DGUIDP": null,
+                "CMANAME": "Hamilton",
+                "CMATYPE": "B",
+                "LANDAREA": 1373.146,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.925849893520706,
+                    43.266089732793752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "539",
+                "CMAPUID": "35539",
+                "DGUID": "2021S0503539",
+                "DGUIDP": null,
+                "CMANAME": "St. Catharines - Niagara",
+                "CMATYPE": "B",
+                "LANDAREA": 1397.0882,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.232703161861096,
+                    43.035689561573967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "541",
+                "CMAPUID": "35541",
+                "DGUID": "2021S0503541",
+                "DGUIDP": null,
+                "CMANAME": "Kitchener - Cambridge - Waterloo",
+                "CMATYPE": "B",
+                "LANDAREA": 1092.3295,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.490860674040178,
+                    43.441915335720701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "543",
+                "CMAPUID": "35543",
+                "DGUID": "2021S0503543",
+                "DGUIDP": null,
+                "CMANAME": "Brantford",
+                "CMATYPE": "B",
+                "LANDAREA": 1074.0011,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.307855687715048,
+                    43.125539800373403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "544",
+                "CMAPUID": "35544",
+                "DGUID": "2021S0504544",
+                "DGUIDP": null,
+                "CMANAME": "Woodstock",
+                "CMATYPE": "D",
+                "LANDAREA": 56.4607,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.724790874511825,
+                    43.138081091418066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "546",
+                "CMAPUID": "35546",
+                "DGUID": "2021S0504546",
+                "DGUIDP": null,
+                "CMANAME": "Tillsonburg",
+                "CMATYPE": "D",
+                "LANDAREA": 22.1987,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.732708031464455,
+                    42.859020891773156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "547",
+                "CMAPUID": "35547",
+                "DGUID": "2021S0504547",
+                "DGUIDP": null,
+                "CMANAME": "Norfolk",
+                "CMATYPE": "D",
+                "LANDAREA": 1597.6846,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.438919746236166,
+                    42.799391822326534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "550",
+                "CMAPUID": "35550",
+                "DGUID": "2021S0503550",
+                "DGUIDP": null,
+                "CMANAME": "Guelph",
+                "CMATYPE": "B",
+                "LANDAREA": 595.0842,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.219702252655196,
+                    43.543982866848594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "553",
+                "CMAPUID": "35553",
+                "DGUID": "2021S0504553",
+                "DGUIDP": null,
+                "CMANAME": "Stratford",
+                "CMATYPE": "D",
+                "LANDAREA": 30.021,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.985025590806345,
+                    43.368884791162088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "555",
+                "CMAPUID": "35555",
+                "DGUID": "2021S0503555",
+                "DGUIDP": null,
+                "CMANAME": "London",
+                "CMATYPE": "B",
+                "LANDAREA": 2661.4818,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.329384832469316,
+                    42.933300484970218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "556",
+                "CMAPUID": "35556",
+                "DGUID": "2021S0504556",
+                "DGUIDP": null,
+                "CMANAME": "Chatham-Kent",
+                "CMATYPE": "D",
+                "LANDAREA": 2464.5232,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.131300453220035,
+                    42.423791985677347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "559",
+                "CMAPUID": "35559",
+                "DGUID": "2021S0503559",
+                "DGUIDP": null,
+                "CMANAME": "Windsor",
+                "CMATYPE": "B",
+                "LANDAREA": 1803.1734,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.781313678592298,
+                    42.163154607486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "562",
+                "CMAPUID": "35562",
+                "DGUID": "2021S0504562",
+                "DGUIDP": null,
+                "CMANAME": "Sarnia",
+                "CMATYPE": "K",
+                "LANDAREA": 1117.1968,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.281461468989065,
+                    42.870922782335519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "563",
+                "CMAPUID": "35563",
+                "DGUID": "2021S0504563",
+                "DGUIDP": null,
+                "CMANAME": "Essa",
+                "CMATYPE": "D",
+                "LANDAREA": 279.9161,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.812669548650618,
+                    44.261073595591718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "565",
+                "CMAPUID": "35565",
+                "DGUID": "2021S0504565",
+                "DGUIDP": null,
+                "CMANAME": "Wasaga Beach",
+                "CMATYPE": "D",
+                "LANDAREA": 57.4219,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.024478098496971,
+                    44.496947499384028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "566",
+                "CMAPUID": "35566",
+                "DGUID": "2021S0504566",
+                "DGUIDP": null,
+                "CMANAME": "Owen Sound",
+                "CMATYPE": "D",
+                "LANDAREA": 624.176,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.015961603929171,
+                    44.636226713383245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "567",
+                "CMAPUID": "35567",
+                "DGUID": "2021S0504567",
+                "DGUIDP": null,
+                "CMANAME": "Collingwood",
+                "CMATYPE": "D",
+                "LANDAREA": 33.1546,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.235740621220785,
+                    44.498123132904034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "568",
+                "CMAPUID": "35568",
+                "DGUID": "2021S0503568",
+                "DGUIDP": null,
+                "CMANAME": "Barrie",
+                "CMATYPE": "B",
+                "LANDAREA": 897.2559,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.738692247521612,
+                    44.407338258854189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "569",
+                "CMAPUID": "35569",
+                "DGUID": "2021S0504569",
+                "DGUIDP": null,
+                "CMANAME": "Orillia",
+                "CMATYPE": "D",
+                "LANDAREA": 28.5299,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.377704787331467,
+                    44.562734971533295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "571",
+                "CMAPUID": "35571",
+                "DGUID": "2021S0504571",
+                "DGUIDP": null,
+                "CMANAME": "Midland",
+                "CMATYPE": "D",
+                "LANDAREA": 60.7517,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.904863977674836,
+                    44.759781421515854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "575",
+                "CMAPUID": "35575",
+                "DGUID": "2021S0504575",
+                "DGUIDP": null,
+                "CMANAME": "North Bay",
+                "CMATYPE": "K",
+                "LANDAREA": 5314.852,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.444630632172476,
+                    46.502665068368017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "580",
+                "CMAPUID": "35580",
+                "DGUID": "2021S0503580",
+                "DGUIDP": null,
+                "CMANAME": "Greater Sudbury / Grand Sudbury",
+                "CMATYPE": "B",
+                "LANDAREA": 4187.3969,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.946783496687289,
+                    46.549261570685964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "582",
+                "CMAPUID": "35582",
+                "DGUID": "2021S0504582",
+                "DGUIDP": null,
+                "CMANAME": "Elliot Lake",
+                "CMATYPE": "D",
+                "LANDAREA": 696.0556,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.631998427233825,
+                    46.406264724515317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "586",
+                "CMAPUID": "35586",
+                "DGUID": "2021S0504586",
+                "DGUIDP": null,
+                "CMANAME": "Timmins",
+                "CMATYPE": "D",
+                "LANDAREA": 2955.3257,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.280534343365829,
+                    48.489759452992679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "590",
+                "CMAPUID": "35590",
+                "DGUID": "2021S0504590",
+                "DGUIDP": null,
+                "CMANAME": "Sault Ste. Marie",
+                "CMATYPE": "K",
+                "LANDAREA": 802.5786,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.169968191580963,
+                    46.526916020824025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "595",
+                "CMAPUID": "35595",
+                "DGUID": "2021S0503595",
+                "DGUIDP": null,
+                "CMANAME": "Thunder Bay",
+                "CMATYPE": "B",
+                "LANDAREA": 2550.7877,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.349223824552553,
+                    48.368866007102518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "598",
+                "CMAPUID": "35598",
+                "DGUID": "2021S0504598",
+                "DGUIDP": null,
+                "CMANAME": "Kenora",
+                "CMATYPE": "D",
+                "LANDAREA": 211.6536,
+                "PRUID": "35"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.439940067782459,
+                    49.821963731117769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "602",
+                "CMAPUID": "46602",
+                "DGUID": "2021S0503602",
+                "DGUIDP": null,
+                "CMANAME": "Winnipeg",
+                "CMATYPE": "B",
+                "LANDAREA": 5285.4554,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.048146173078166,
+                    49.887389953406796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "603",
+                "CMAPUID": "46603",
+                "DGUID": "2021S0504603",
+                "DGUIDP": null,
+                "CMANAME": "Winkler",
+                "CMATYPE": "D",
+                "LANDAREA": 872.1924,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.066926586395283,
+                    49.133548999463613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "605",
+                "CMAPUID": "46605",
+                "DGUID": "2021S0504605",
+                "DGUIDP": null,
+                "CMANAME": "Steinbach",
+                "CMATYPE": "D",
+                "LANDAREA": 37.5551,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.693769561659664,
+                    49.531138449235627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "607",
+                "CMAPUID": "46607",
+                "DGUID": "2021S0504607",
+                "DGUIDP": null,
+                "CMANAME": "Portage la Prairie",
+                "CMATYPE": "D",
+                "LANDAREA": 24.7206,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.288573948441808,
+                    49.970299272737364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "610",
+                "CMAPUID": "46610",
+                "DGUID": "2021S0504610",
+                "DGUIDP": null,
+                "CMANAME": "Brandon",
+                "CMATYPE": "D",
+                "LANDAREA": 1232.8141,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.052779089913003,
+                    49.884135420445411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "640",
+                "CMAPUID": "46640",
+                "DGUID": "2021S0504640",
+                "DGUIDP": null,
+                "CMANAME": "Thompson",
+                "CMATYPE": "D",
+                "LANDAREA": 16.6198,
+                "PRUID": "46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.845595847693431,
+                    55.75676519654273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "705",
+                "CMAPUID": "47705",
+                "DGUID": "2021S0503705",
+                "DGUIDP": null,
+                "CMANAME": "Regina",
+                "CMATYPE": "B",
+                "LANDAREA": 4323.6641,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.620944633774954,
+                    50.449303646634149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "710",
+                "CMAPUID": "47710",
+                "DGUID": "2021S0504710",
+                "DGUIDP": null,
+                "CMANAME": "Yorkton",
+                "CMATYPE": "D",
+                "LANDAREA": 1623.3177,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.428614453403938,
+                    51.254638203175645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "715",
+                "CMAPUID": "47715",
+                "DGUID": "2021S0504715",
+                "DGUIDP": null,
+                "CMANAME": "Moose Jaw",
+                "CMATYPE": "D",
+                "LANDAREA": 843.4351,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.511729166332358,
+                    50.440578457745495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "720",
+                "CMAPUID": "47720",
+                "DGUID": "2021S0504720",
+                "DGUIDP": null,
+                "CMANAME": "Swift Current",
+                "CMATYPE": "D",
+                "LANDAREA": 1129.7761,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.854232459580814,
+                    50.222857575490899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "725",
+                "CMAPUID": "47725",
+                "DGUID": "2021S0503725",
+                "DGUIDP": null,
+                "CMANAME": "Saskatoon",
+                "CMATYPE": "B",
+                "LANDAREA": 5864.4799,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.565072327506059,
+                    52.097665638725807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "735",
+                "CMAPUID": "47735",
+                "DGUID": "2021S0504735",
+                "DGUIDP": null,
+                "CMANAME": "North Battleford",
+                "CMATYPE": "D",
+                "LANDAREA": 1118.5439,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.437430497642666,
+                    52.735508516323137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "745",
+                "CMAPUID": "47745",
+                "DGUID": "2021S0504745",
+                "DGUIDP": null,
+                "CMANAME": "Prince Albert",
+                "CMATYPE": "D",
+                "LANDAREA": 2537.6759,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.609721127639489,
+                    53.24088586878689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "750",
+                "CMAPUID": "47750",
+                "DGUID": "2021S0504750",
+                "DGUIDP": null,
+                "CMANAME": "Estevan",
+                "CMATYPE": "D",
+                "LANDAREA": 793.3552,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.011308073552613,
+                    49.130662254182432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "755",
+                "CMAPUID": "47755",
+                "DGUID": "2021S0504755",
+                "DGUIDP": null,
+                "CMANAME": "Weyburn",
+                "CMATYPE": "D",
+                "LANDAREA": 828.2775,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.83556388748886,
+                    49.653753963035889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "805",
+                "CMAPUID": "48805",
+                "DGUID": "2021S0504805",
+                "DGUIDP": null,
+                "CMANAME": "Medicine Hat",
+                "CMATYPE": "K",
+                "LANDAREA": 13106.111,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.584916677627461,
+                    50.014695507057148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "806",
+                "CMAPUID": "48806",
+                "DGUID": "2021S0504806",
+                "DGUIDP": null,
+                "CMANAME": "Brooks",
+                "CMATYPE": "D",
+                "LANDAREA": 18.2051,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.891945622501694,
+                    50.564837889286814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "810",
+                "CMAPUID": "48810",
+                "DGUID": "2021S0503810",
+                "DGUIDP": null,
+                "CMANAME": "Lethbridge",
+                "CMATYPE": "B",
+                "LANDAREA": 2958.9554,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.767731620014544,
+                    49.843745837674888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "820",
+                "CMAPUID": "48820",
+                "DGUID": "2021S0504820",
+                "DGUIDP": null,
+                "CMANAME": "Okotoks",
+                "CMATYPE": "D",
+                "LANDAREA": 38.549,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.961985062149779,
+                    50.726360098669844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "821",
+                "CMAPUID": "48821",
+                "DGUID": "2021S0504821",
+                "DGUIDP": null,
+                "CMANAME": "High River",
+                "CMATYPE": "D",
+                "LANDAREA": 22.1948,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.86901037291365,
+                    50.583486721302769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "825",
+                "CMAPUID": "48825",
+                "DGUID": "2021S0503825",
+                "DGUIDP": null,
+                "CMANAME": "Calgary",
+                "CMATYPE": "B",
+                "LANDAREA": 5098.6807,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.07812569794703,
+                    51.180779445528678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "826",
+                "CMAPUID": "48826",
+                "DGUID": "2021S0504826",
+                "DGUIDP": null,
+                "CMANAME": "Strathmore",
+                "CMATYPE": "D",
+                "LANDAREA": 26.9758,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.396026231625981,
+                    51.047903401628709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "828",
+                "CMAPUID": "48828",
+                "DGUID": "2021S0504828",
+                "DGUIDP": null,
+                "CMANAME": "Canmore",
+                "CMATYPE": "D",
+                "LANDAREA": 68.4694,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.325474633959416,
+                    51.06363216512112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "830",
+                "CMAPUID": "48830",
+                "DGUID": "2021S0503830",
+                "DGUIDP": null,
+                "CMANAME": "Red Deer",
+                "CMATYPE": "B",
+                "LANDAREA": 104.3433,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.797353545565812,
+                    52.281596901579576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "831",
+                "CMAPUID": "48831",
+                "DGUID": "2021S0504831",
+                "DGUIDP": null,
+                "CMANAME": "Sylvan Lake",
+                "CMATYPE": "D",
+                "LANDAREA": 24.2547,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08899732412371,
+                    52.306112428338146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "832",
+                "CMAPUID": "48832",
+                "DGUID": "2021S0504832",
+                "DGUIDP": null,
+                "CMANAME": "Lacombe",
+                "CMATYPE": "D",
+                "LANDAREA": 20.5856,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.727453345947524,
+                    52.472062225051644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "833",
+                "CMAPUID": "48833",
+                "DGUID": "2021S0504833",
+                "DGUIDP": null,
+                "CMANAME": "Camrose",
+                "CMATYPE": "D",
+                "LANDAREA": 41.6685,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.831730555820656,
+                    53.00823128899988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "835",
+                "CMAPUID": "48835",
+                "DGUID": "2021S0503835",
+                "DGUIDP": null,
+                "CMANAME": "Edmonton",
+                "CMATYPE": "B",
+                "LANDAREA": 9416.1887,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.788467523429418,
+                    53.513193282648281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "840",
+                "CMAPUID": "47840",
+                "DGUID": "2021S0504840",
+                "DGUIDP": "2021S050647840",
+                "CMANAME": "Lloydminster (Saskatchewan part / partie de la Saskatchewan)",
+                "CMATYPE": "D",
+                "LANDAREA": 1960.2635,
+                "PRUID": "47"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.784432625702308,
+                    53.269898615943575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "840",
+                "CMAPUID": "48840",
+                "DGUID": "2021S0504840",
+                "DGUIDP": "2021S050648840",
+                "CMANAME": "Lloydminster (Alberta part / partie de l'Alberta)",
+                "CMATYPE": "D",
+                "LANDAREA": 23.981,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.034964187404825,
+                    53.280742794838069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "850",
+                "CMAPUID": "48850",
+                "DGUID": "2021S0504850",
+                "DGUIDP": null,
+                "CMANAME": "Grande Prairie",
+                "CMATYPE": "K",
+                "LANDAREA": 132.7063,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.832718238172973,
+                    55.183318369321235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "860",
+                "CMAPUID": "48860",
+                "DGUID": "2021S0504860",
+                "DGUIDP": null,
+                "CMANAME": "Wood Buffalo",
+                "CMATYPE": "K",
+                "LANDAREA": 60957.2057,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.328071962989114,
+                    57.602062625888095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "865",
+                "CMAPUID": "48865",
+                "DGUID": "2021S0504865",
+                "DGUIDP": null,
+                "CMANAME": "Wetaskiwin",
+                "CMATYPE": "D",
+                "LANDAREA": 18.7535,
+                "PRUID": "48"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.376830221454739,
+                    52.972302995864915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "905",
+                "CMAPUID": "59905",
+                "DGUID": "2021S0504905",
+                "DGUIDP": null,
+                "CMANAME": "Cranbrook",
+                "CMATYPE": "D",
+                "LANDAREA": 4563.8689,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.591192903712511,
+                    49.506230924775281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "907",
+                "CMAPUID": "59907",
+                "DGUID": "2021S0504907",
+                "DGUIDP": null,
+                "CMANAME": "Nelson",
+                "CMATYPE": "D",
+                "LANDAREA": 1224.3003,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.192123644060629,
+                    49.547745879780621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "910",
+                "CMAPUID": "59910",
+                "DGUID": "2021S0504910",
+                "DGUIDP": null,
+                "CMANAME": "Trail",
+                "CMATYPE": "D",
+                "LANDAREA": 279.1345,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.600552433047909,
+                    49.098909820156763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "913",
+                "CMAPUID": "59913",
+                "DGUID": "2021S0504913",
+                "DGUIDP": null,
+                "CMANAME": "Penticton",
+                "CMATYPE": "D",
+                "LANDAREA": 1734.7213,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.668683705789434,
+                    49.469488233726679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "915",
+                "CMAPUID": "59915",
+                "DGUID": "2021S0503915",
+                "DGUIDP": null,
+                "CMANAME": "Kelowna",
+                "CMATYPE": "B",
+                "LANDAREA": 2902.4539,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.458053610764068,
+                    49.948926691450687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "918",
+                "CMAPUID": "59918",
+                "DGUID": "2021S0504918",
+                "DGUIDP": null,
+                "CMANAME": "Vernon",
+                "CMATYPE": "D",
+                "LANDAREA": 1041.0866,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.345527177454244,
+                    50.307396789226175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "920",
+                "CMAPUID": "59920",
+                "DGUID": "2021S0504920",
+                "DGUIDP": null,
+                "CMANAME": "Salmon Arm",
+                "CMATYPE": "D",
+                "LANDAREA": 165.423,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.286641199260885,
+                    50.700541326094289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "925",
+                "CMAPUID": "59925",
+                "DGUID": "2021S0503925",
+                "DGUIDP": null,
+                "CMANAME": "Kamloops",
+                "CMATYPE": "B",
+                "LANDAREA": 5654.0827,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.510734871392216,
+                    50.801777433479671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "930",
+                "CMAPUID": "59930",
+                "DGUID": "2021S0503930",
+                "DGUIDP": null,
+                "CMANAME": "Chilliwack",
+                "CMATYPE": "B",
+                "LANDAREA": 1444.0238,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.723060126965606,
+                    49.137768961197089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "932",
+                "CMAPUID": "59932",
+                "DGUID": "2021S0503932",
+                "DGUIDP": null,
+                "CMANAME": "Abbotsford - Mission",
+                "CMATYPE": "B",
+                "LANDAREA": 606.7175,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.308345107208964,
+                    49.134995771747718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "933",
+                "CMAPUID": "59933",
+                "DGUID": "2021S0503933",
+                "DGUIDP": null,
+                "CMANAME": "Vancouver",
+                "CMATYPE": "B",
+                "LANDAREA": 2878.9307,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.836066308910574,
+                    49.282715222836629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "934",
+                "CMAPUID": "59934",
+                "DGUID": "2021S0504934",
+                "DGUIDP": null,
+                "CMANAME": "Squamish",
+                "CMATYPE": "D",
+                "LANDAREA": 105.4301,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.137427128032257,
+                    49.749207515349468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "935",
+                "CMAPUID": "59935",
+                "DGUID": "2021S0503935",
+                "DGUIDP": null,
+                "CMANAME": "Victoria",
+                "CMATYPE": "B",
+                "LANDAREA": 695.292,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.550732436521471,
+                    48.465416181676268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "936",
+                "CMAPUID": "59936",
+                "DGUID": "2021S0504936",
+                "DGUIDP": null,
+                "CMANAME": "Ladysmith",
+                "CMATYPE": "D",
+                "LANDAREA": 412.0119,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.942235939288523,
+                    48.985246988218982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "937",
+                "CMAPUID": "59937",
+                "DGUID": "2021S0504937",
+                "DGUIDP": null,
+                "CMANAME": "Duncan",
+                "CMATYPE": "D",
+                "LANDAREA": 373.2193,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.725843626895099,
+                    48.808631475452295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "938",
+                "CMAPUID": "59938",
+                "DGUID": "2021S0503938",
+                "DGUIDP": null,
+                "CMANAME": "Nanaimo",
+                "CMATYPE": "B",
+                "LANDAREA": 1279.276,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.234805358043928,
+                    49.127896439943896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "939",
+                "CMAPUID": "59939",
+                "DGUID": "2021S0504939",
+                "DGUIDP": null,
+                "CMANAME": "Parksville",
+                "CMATYPE": "D",
+                "LANDAREA": 81.8096,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.394126157681455,
+                    49.330285767152596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "940",
+                "CMAPUID": "59940",
+                "DGUID": "2021S0504940",
+                "DGUIDP": null,
+                "CMANAME": "Port Alberni",
+                "CMATYPE": "D",
+                "LANDAREA": 1633.1279,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -125.142148843100117,
+                    49.333039689296456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "943",
+                "CMAPUID": "59943",
+                "DGUID": "2021S0504943",
+                "DGUIDP": null,
+                "CMANAME": "Courtenay",
+                "CMATYPE": "D",
+                "LANDAREA": 624.3332,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.928278346324362,
+                    49.561418043843183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "944",
+                "CMAPUID": "59944",
+                "DGUID": "2021S0504944",
+                "DGUIDP": null,
+                "CMANAME": "Campbell River",
+                "CMATYPE": "D",
+                "LANDAREA": 1734.0503,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -125.59074461434443,
+                    49.810382155835903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "945",
+                "CMAPUID": "59945",
+                "DGUID": "2021S0504945",
+                "DGUIDP": null,
+                "CMANAME": "Powell River",
+                "CMATYPE": "D",
+                "LANDAREA": 799.7984,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.300822365537982,
+                    49.898259978258324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "950",
+                "CMAPUID": "59950",
+                "DGUID": "2021S0504950",
+                "DGUIDP": null,
+                "CMANAME": "Williams Lake",
+                "CMATYPE": "D",
+                "LANDAREA": 12422.1404,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.399206130653624,
+                    52.380346867037453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "952",
+                "CMAPUID": "59952",
+                "DGUID": "2021S0504952",
+                "DGUIDP": null,
+                "CMANAME": "Quesnel",
+                "CMATYPE": "D",
+                "LANDAREA": 21708.6198,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.807383360841641,
+                    53.044948086469184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "955",
+                "CMAPUID": "59955",
+                "DGUID": "2021S0504955",
+                "DGUIDP": null,
+                "CMANAME": "Prince Rupert",
+                "CMATYPE": "D",
+                "LANDAREA": 3303.6339,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -130.029955277219528,
+                    54.450727218303363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "965",
+                "CMAPUID": "59965",
+                "DGUID": "2021S0504965",
+                "DGUIDP": null,
+                "CMANAME": "Terrace",
+                "CMATYPE": "D",
+                "LANDAREA": 9721.8369,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -128.607046225060429,
+                    54.555597138990102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "970",
+                "CMAPUID": "59970",
+                "DGUID": "2021S0504970",
+                "DGUIDP": null,
+                "CMANAME": "Prince George",
+                "CMATYPE": "K",
+                "LANDAREA": 17650.9918,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.930273312949808,
+                    53.923366778899158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "975",
+                "CMAPUID": "59975",
+                "DGUID": "2021S0504975",
+                "DGUIDP": null,
+                "CMANAME": "Dawson Creek",
+                "CMATYPE": "D",
+                "LANDAREA": 11716.7959,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.419464283463654,
+                    55.061833654755254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "977",
+                "CMAPUID": "59977",
+                "DGUID": "2021S0504977",
+                "DGUIDP": null,
+                "CMANAME": "Fort St. John",
+                "CMATYPE": "D",
+                "LANDAREA": 617.7325,
+                "PRUID": "59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.782188622051606,
+                    56.233950184895718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "990",
+                "CMAPUID": "60990",
+                "DGUID": "2021S0504990",
+                "DGUIDP": null,
+                "CMANAME": "Whitehorse",
+                "CMATYPE": "D",
+                "LANDAREA": 8465.2077,
+                "PRUID": "60"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -135.065309648923886,
+                    60.665153627818952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "CMAUID": "995",
+                "CMAPUID": "61995",
+                "DGUID": "2021S0504995",
+                "DGUIDP": null,
+                "CMANAME": "Yellowknife",
+                "CMATYPE": "D",
+                "LANDAREA": 103.3722,
+                "PRUID": "61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.405282569501921,
+                    62.470857150891042
+                ]
+            }
+        }
+    ]
+}
