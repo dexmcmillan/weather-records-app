@@ -34,7 +34,7 @@
     <div id="methodology">
         <p>How long has your city gone without breaking a climate record? We located all the weather stations within the boundaries of every Census Metropolitan Area (CMA) and Census Agglomeration (CA) in Canada. Every day, we take the previous day's data from Environment and Climate Change Canada and compare it to the same date for that weather station to see if this year was the hottest or coldest day on record for that date. The values here show how many days it's been since a record has been broken.</p>
         <p>Click on the board to see more details about the record.</p>
-        <p><b>Last update</b>: {{ $date(today) }}</p>
+        <p><b>Last update</b>: {{ $date(latest_date) }}</p>
     </div>
 
     <div id="board" class="grid grid-cols-3">
@@ -66,6 +66,7 @@
 
     const flipped = ref(false)
     const today = ref((new Date()).setDate((new Date()).getDate() - 1))
+    const latest_date = ref(maxTempRecords[-1].date)
     const city_search = ref("")
 
     // Now, we need one array, with one entry for each city, depending on if the last record broken was a low or high.
